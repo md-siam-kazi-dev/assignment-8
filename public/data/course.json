@@ -1,0 +1,4234 @@
+[
+  {
+    "id": 1,
+    "title": "Complete Web Development Bootcamp",
+    "instructor": "John Doe",
+    "duration": "20 hours",
+    "rating": 4.8,
+    "students": 124500,
+    "price": 19.99,
+    "level": "Beginner",
+    "description": "Learn full-stack web development from scratch. Master HTML, CSS, JavaScript, React, Node.js, and more.",
+    "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=750&h=422&fit=crop&auto=format",
+    "category": "Development",
+    "tags": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React",
+      "Node.js"
+    ],
+    "curriculum": [
+      {
+        "section": 1,
+        "title": "Introduction to Web Development",
+        "lessons": [
+          {
+            "id": 1,
+            "title": "How the Internet Works",
+            "duration": "10 min",
+            "type": "video"
+          },
+          {
+            "id": 2,
+            "title": "Setting Up Your Environment",
+            "duration": "15 min",
+            "type": "video"
+          },
+          {
+            "id": 3,
+            "title": "Your First Webpage",
+            "duration": "20 min",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "section": 2,
+        "title": "HTML Fundamentals",
+        "lessons": [
+          {
+            "id": 4,
+            "title": "HTML Tags & Structure",
+            "duration": "25 min",
+            "type": "video"
+          },
+          {
+            "id": 5,
+            "title": "Forms & Inputs",
+            "duration": "20 min",
+            "type": "video"
+          },
+          {
+            "id": 6,
+            "title": "HTML Quiz",
+            "duration": "10 min",
+            "type": "quiz"
+          }
+        ]
+      },
+      {
+        "section": 3,
+        "title": "CSS Styling",
+        "lessons": [
+          {
+            "id": 7,
+            "title": "CSS Selectors & Properties",
+            "duration": "30 min",
+            "type": "video"
+          },
+          {
+            "id": 8,
+            "title": "Flexbox & Grid",
+            "duration": "40 min",
+            "type": "video"
+          },
+          {
+            "id": 9,
+            "title": "Responsive Design",
+            "duration": "35 min",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "section": 4,
+        "title": "JavaScript Basics",
+        "lessons": [
+          {
+            "id": 10,
+            "title": "Variables & Data Types",
+            "duration": "20 min",
+            "type": "video"
+          },
+          {
+            "id": 11,
+            "title": "Functions & Loops",
+            "duration": "30 min",
+            "type": "video"
+          },
+          {
+            "id": 12,
+            "title": "DOM Manipulation",
+            "duration": "35 min",
+            "type": "video"
+          },
+          {
+            "id": 13,
+            "title": "JS Project: Todo App",
+            "duration": "60 min",
+            "type": "project"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Python for Data Science & Machine Learning",
+    "instructor": "Sarah Johnson",
+    "duration": "35 hours",
+    "rating": 4.9,
+    "students": 215000,
+    "price": 24.99,
+    "level": "Intermediate",
+    "description": "Master Python, NumPy, Pandas, Matplotlib, Scikit-Learn, and TensorFlow for data science and ML.",
+    "image": "https://images.unsplash.com/photo-1518186285589-2f7649de83e0?w=750&h=422&fit=crop&auto=format",
+    "category": "Data Science",
+    "tags": [
+      "Python",
+      "Machine Learning",
+      "Pandas",
+      "NumPy",
+      "TensorFlow"
+    ],
+    "curriculum": [
+      {
+        "section": 1,
+        "title": "Python Refresher",
+        "lessons": [
+          {
+            "id": 1,
+            "title": "Python Basics & Setup",
+            "duration": "20 min",
+            "type": "video"
+          },
+          {
+            "id": 2,
+            "title": "Lists, Dicts & Tuples",
+            "duration": "25 min",
+            "type": "video"
+          },
+          {
+            "id": 3,
+            "title": "OOP in Python",
+            "duration": "30 min",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "section": 2,
+        "title": "Data Manipulation with Pandas",
+        "lessons": [
+          {
+            "id": 4,
+            "title": "DataFrames & Series",
+            "duration": "35 min",
+            "type": "video"
+          },
+          {
+            "id": 5,
+            "title": "Data Cleaning",
+            "duration": "40 min",
+            "type": "video"
+          },
+          {
+            "id": 6,
+            "title": "Pandas Project",
+            "duration": "60 min",
+            "type": "project"
+          }
+        ]
+      },
+      {
+        "section": 3,
+        "title": "Machine Learning with Scikit-Learn",
+        "lessons": [
+          {
+            "id": 7,
+            "title": "Supervised Learning",
+            "duration": "45 min",
+            "type": "video"
+          },
+          {
+            "id": 8,
+            "title": "Unsupervised Learning",
+            "duration": "40 min",
+            "type": "video"
+          },
+          {
+            "id": 9,
+            "title": "Model Evaluation",
+            "duration": "30 min",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "section": 4,
+        "title": "Deep Learning with TensorFlow",
+        "lessons": [
+          {
+            "id": 10,
+            "title": "Neural Networks Intro",
+            "duration": "50 min",
+            "type": "video"
+          },
+          {
+            "id": 11,
+            "title": "CNNs for Image Recognition",
+            "duration": "60 min",
+            "type": "video"
+          },
+          {
+            "id": 12,
+            "title": "Final ML Project",
+            "duration": "120 min",
+            "type": "project"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "React & Redux: Complete Guide",
+    "instructor": "Michael Brown",
+    "duration": "28 hours",
+    "rating": 4.7,
+    "students": 98000,
+    "price": 21.99,
+    "level": "Intermediate",
+    "description": "Build powerful React apps with Redux, Hooks, Context API, and modern patterns.",
+    "image": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=750&h=422&fit=crop&auto=format",
+    "category": "Development",
+    "tags": [
+      "React",
+      "Redux",
+      "JavaScript",
+      "Hooks",
+      "Context API"
+    ],
+    "curriculum": [
+      {
+        "section": 1,
+        "title": "React Fundamentals",
+        "lessons": [
+          {
+            "id": 1,
+            "title": "JSX & Components",
+            "duration": "25 min",
+            "type": "video"
+          },
+          {
+            "id": 2,
+            "title": "Props & State",
+            "duration": "30 min",
+            "type": "video"
+          },
+          {
+            "id": 3,
+            "title": "Event Handling",
+            "duration": "20 min",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "section": 2,
+        "title": "React Hooks",
+        "lessons": [
+          {
+            "id": 4,
+            "title": "useState & useEffect",
+            "duration": "35 min",
+            "type": "video"
+          },
+          {
+            "id": 5,
+            "title": "Custom Hooks",
+            "duration": "30 min",
+            "type": "video"
+          },
+          {
+            "id": 6,
+            "title": "useContext & useReducer",
+            "duration": "40 min",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "section": 3,
+        "title": "Redux State Management",
+        "lessons": [
+          {
+            "id": 7,
+            "title": "Redux Core Concepts",
+            "duration": "40 min",
+            "type": "video"
+          },
+          {
+            "id": 8,
+            "title": "Redux Toolkit",
+            "duration": "45 min",
+            "type": "video"
+          },
+          {
+            "id": 9,
+            "title": "Async Redux with Thunk",
+            "duration": "35 min",
+            "type": "video"
+          },
+          {
+            "id": 10,
+            "title": "E-Commerce App Project",
+            "duration": "120 min",
+            "type": "project"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "UI/UX Design Masterclass",
+    "instructor": "Emily Chen",
+    "duration": "22 hours",
+    "rating": 4.8,
+    "students": 67000,
+    "price": 18.99,
+    "level": "Beginner",
+    "description": "Master UI/UX design principles, Figma, prototyping, and user research to create stunning designs.",
+    "image": "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=750&h=422&fit=crop&auto=format",
+    "category": "Design",
+    "tags": [
+      "Figma",
+      "UI Design",
+      "UX Research",
+      "Prototyping",
+      "Wireframing"
+    ],
+    "curriculum": [
+      {
+        "section": 1,
+        "title": "Design Fundamentals",
+        "lessons": [
+          {
+            "id": 1,
+            "title": "Design Thinking Intro",
+            "duration": "20 min",
+            "type": "video"
+          },
+          {
+            "id": 2,
+            "title": "Color Theory",
+            "duration": "25 min",
+            "type": "video"
+          },
+          {
+            "id": 3,
+            "title": "Typography Basics",
+            "duration": "20 min",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "section": 2,
+        "title": "Figma Mastery",
+        "lessons": [
+          {
+            "id": 4,
+            "title": "Figma Interface Tour",
+            "duration": "15 min",
+            "type": "video"
+          },
+          {
+            "id": 5,
+            "title": "Components & Auto Layout",
+            "duration": "35 min",
+            "type": "video"
+          },
+          {
+            "id": 6,
+            "title": "Prototyping in Figma",
+            "duration": "40 min",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "section": 3,
+        "title": "UX Research",
+        "lessons": [
+          {
+            "id": 7,
+            "title": "User Personas",
+            "duration": "30 min",
+            "type": "video"
+          },
+          {
+            "id": 8,
+            "title": "Usability Testing",
+            "duration": "35 min",
+            "type": "video"
+          },
+          {
+            "id": 9,
+            "title": "Case Study: Mobile App Redesign",
+            "duration": "90 min",
+            "type": "project"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "AWS Cloud Practitioner & Solutions Architect",
+    "instructor": "David Kim",
+    "duration": "30 hours",
+    "rating": 4.7,
+    "students": 143000,
+    "price": 27.99,
+    "level": "Intermediate",
+    "description": "Prepare for AWS certifications and learn cloud architecture, EC2, S3, Lambda, and more.",
+    "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=750&h=422&fit=crop&auto=format",
+    "category": "Cloud Computing",
+    "tags": [
+      "AWS",
+      "Cloud",
+      "EC2",
+      "S3",
+      "Lambda",
+      "DevOps"
+    ],
+    "curriculum": [
+      {
+        "section": 1,
+        "title": "AWS Fundamentals",
+        "lessons": [
+          {
+            "id": 1,
+            "title": "Cloud Computing Overview",
+            "duration": "20 min",
+            "type": "video"
+          },
+          {
+            "id": 2,
+            "title": "AWS Global Infrastructure",
+            "duration": "25 min",
+            "type": "video"
+          },
+          {
+            "id": 3,
+            "title": "IAM & Security",
+            "duration": "35 min",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "section": 2,
+        "title": "Core AWS Services",
+        "lessons": [
+          {
+            "id": 4,
+            "title": "EC2 Deep Dive",
+            "duration": "50 min",
+            "type": "video"
+          },
+          {
+            "id": 5,
+            "title": "S3 Storage",
+            "duration": "40 min",
+            "type": "video"
+          },
+          {
+            "id": 6,
+            "title": "RDS & DynamoDB",
+            "duration": "45 min",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "section": 3,
+        "title": "Serverless & Advanced",
+        "lessons": [
+          {
+            "id": 7,
+            "title": "AWS Lambda",
+            "duration": "40 min",
+            "type": "video"
+          },
+          {
+            "id": 8,
+            "title": "API Gateway",
+            "duration": "35 min",
+            "type": "video"
+          },
+          {
+            "id": 9,
+            "title": "CloudFormation",
+            "duration": "45 min",
+            "type": "video"
+          },
+          {
+            "id": 10,
+            "title": "Certification Practice Test",
+            "duration": "60 min",
+            "type": "quiz"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Complete Node.js Developer Course",
+    "instructor": "Alex Turner",
+    "duration": "24 hours",
+    "rating": 4.6,
+    "students": 82000,
+    "price": 20.99,
+    "level": "Intermediate",
+    "description": "Build scalable backend applications with Node.js, Express, MongoDB, REST APIs and authentication.",
+    "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=750&h=422&fit=crop&auto=format",
+    "category": "Development",
+    "tags": [
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "REST API",
+      "JWT"
+    ],
+    "curriculum": [
+      {
+        "section": 1,
+        "title": "Node.js Core",
+        "lessons": [
+          {
+            "id": 1,
+            "title": "Node.js Architecture",
+            "duration": "20 min",
+            "type": "video"
+          },
+          {
+            "id": 2,
+            "title": "File System & Modules",
+            "duration": "25 min",
+            "type": "video"
+          },
+          {
+            "id": 3,
+            "title": "Async Programming",
+            "duration": "30 min",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "section": 2,
+        "title": "Express Framework",
+        "lessons": [
+          {
+            "id": 4,
+            "title": "Routing & Middleware",
+            "duration": "35 min",
+            "type": "video"
+          },
+          {
+            "id": 5,
+            "title": "RESTful APIs",
+            "duration": "40 min",
+            "type": "video"
+          },
+          {
+            "id": 6,
+            "title": "Error Handling",
+            "duration": "20 min",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "section": 3,
+        "title": "Database & Auth",
+        "lessons": [
+          {
+            "id": 7,
+            "title": "MongoDB & Mongoose",
+            "duration": "45 min",
+            "type": "video"
+          },
+          {
+            "id": 8,
+            "title": "JWT Authentication",
+            "duration": "40 min",
+            "type": "video"
+          },
+          {
+            "id": 9,
+            "title": "Build a REST API Project",
+            "duration": "90 min",
+            "type": "project"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Digital Marketing Masterclass",
+    "instructor": "Lisa Parker",
+    "duration": "18 hours",
+    "rating": 4.5,
+    "students": 54000,
+    "price": 16.99,
+    "level": "Beginner",
+    "description": "Learn SEO, Google Ads, Social Media Marketing, Email Marketing, and Analytics from experts.",
+    "image": "https://images.unsplash.com/photo-1533750349088-cd871a92f312?w=750&h=422&fit=crop&auto=format",
+    "category": "Marketing",
+    "tags": [
+      "SEO",
+      "Google Ads",
+      "Social Media",
+      "Email Marketing",
+      "Analytics"
+    ],
+    "curriculum": [
+      {
+        "section": 1,
+        "title": "Marketing Foundations",
+        "lessons": [
+          {
+            "id": 1,
+            "title": "Digital Marketing Overview",
+            "duration": "15 min",
+            "type": "video"
+          },
+          {
+            "id": 2,
+            "title": "Defining Your Audience",
+            "duration": "20 min",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "section": 2,
+        "title": "SEO Mastery",
+        "lessons": [
+          {
+            "id": 3,
+            "title": "On-Page SEO",
+            "duration": "30 min",
+            "type": "video"
+          },
+          {
+            "id": 4,
+            "title": "Link Building",
+            "duration": "25 min",
+            "type": "video"
+          },
+          {
+            "id": 5,
+            "title": "SEO Tools & Analytics",
+            "duration": "30 min",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "section": 3,
+        "title": "Paid Advertising",
+        "lessons": [
+          {
+            "id": 6,
+            "title": "Google Ads Setup",
+            "duration": "35 min",
+            "type": "video"
+          },
+          {
+            "id": 7,
+            "title": "Facebook & Instagram Ads",
+            "duration": "40 min",
+            "type": "video"
+          },
+          {
+            "id": 8,
+            "title": "Campaign Optimization",
+            "duration": "30 min",
+            "type": "video"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "iOS App Development with Swift",
+    "instructor": "Chris Anderson",
+    "duration": "32 hours",
+    "rating": 4.7,
+    "students": 73000,
+    "price": 23.99,
+    "level": "Intermediate",
+    "description": "Build iOS apps with Swift and SwiftUI from scratch. Deploy your app to the App Store.",
+    "image": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=750&h=422&fit=crop&auto=format",
+    "category": "Mobile Development",
+    "tags": [
+      "Swift",
+      "iOS",
+      "SwiftUI",
+      "Xcode",
+      "App Store"
+    ],
+    "curriculum": [
+      {
+        "section": 1,
+        "title": "Swift Programming",
+        "lessons": [
+          {
+            "id": 1,
+            "title": "Swift Basics",
+            "duration": "30 min",
+            "type": "video"
+          },
+          {
+            "id": 2,
+            "title": "Optionals & Error Handling",
+            "duration": "25 min",
+            "type": "video"
+          },
+          {
+            "id": 3,
+            "title": "Protocols & Extensions",
+            "duration": "30 min",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "section": 2,
+        "title": "SwiftUI Fundamentals",
+        "lessons": [
+          {
+            "id": 4,
+            "title": "Views & Modifiers",
+            "duration": "35 min",
+            "type": "video"
+          },
+          {
+            "id": 5,
+            "title": "Navigation & Lists",
+            "duration": "30 min",
+            "type": "video"
+          },
+          {
+            "id": 6,
+            "title": "State & Binding",
+            "duration": "35 min",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "section": 3,
+        "title": "Advanced iOS",
+        "lessons": [
+          {
+            "id": 7,
+            "title": "Core Data",
+            "duration": "45 min",
+            "type": "video"
+          },
+          {
+            "id": 8,
+            "title": "Networking & APIs",
+            "duration": "40 min",
+            "type": "video"
+          },
+          {
+            "id": 9,
+            "title": "App Store Submission",
+            "duration": "25 min",
+            "type": "video"
+          },
+          {
+            "id": 10,
+            "title": "Final App Project",
+            "duration": "120 min",
+            "type": "project"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Android Development with Kotlin",
+    "instructor": "Priya Nair",
+    "duration": "30 hours",
+    "rating": 4.6,
+    "students": 61000,
+    "price": 22.99,
+    "level": "Intermediate",
+    "description": "Build Android apps using Kotlin, Jetpack Compose, Room, Retrofit and deploy to Google Play.",
+    "image": "https://images.unsplash.com/photo-1607252650355-f7fd0460ccdb?w=750&h=422&fit=crop&auto=format",
+    "category": "Mobile Development",
+    "tags": [
+      "Kotlin",
+      "Android",
+      "Jetpack",
+      "Room",
+      "Retrofit"
+    ],
+    "curriculum": [
+      {
+        "section": 1,
+        "title": "Kotlin Essentials",
+        "lessons": [
+          {
+            "id": 1,
+            "title": "Kotlin Syntax & Types",
+            "duration": "25 min",
+            "type": "video"
+          },
+          {
+            "id": 2,
+            "title": "Coroutines & Flow",
+            "duration": "35 min",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "section": 2,
+        "title": "Jetpack Compose",
+        "lessons": [
+          {
+            "id": 3,
+            "title": "Composables & Layouts",
+            "duration": "40 min",
+            "type": "video"
+          },
+          {
+            "id": 4,
+            "title": "State Management",
+            "duration": "30 min",
+            "type": "video"
+          },
+          {
+            "id": 5,
+            "title": "Navigation Component",
+            "duration": "35 min",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "section": 3,
+        "title": "Data & Networking",
+        "lessons": [
+          {
+            "id": 6,
+            "title": "Room Database",
+            "duration": "45 min",
+            "type": "video"
+          },
+          {
+            "id": 7,
+            "title": "Retrofit & REST APIs",
+            "duration": "40 min",
+            "type": "video"
+          },
+          {
+            "id": 8,
+            "title": "News App Project",
+            "duration": "100 min",
+            "type": "project"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Docker & Kubernetes: The Complete Guide",
+    "instructor": "Mark Stevens",
+    "duration": "26 hours",
+    "rating": 4.8,
+    "students": 109000,
+    "price": 25.99,
+    "level": "Advanced",
+    "description": "Master containerization with Docker and orchestration with Kubernetes for modern DevOps.",
+    "image": "https://images.unsplash.com/photo-1605745341112-85968b19335b?w=750&h=422&fit=crop&auto=format",
+    "category": "DevOps",
+    "tags": [
+      "Docker",
+      "Kubernetes",
+      "DevOps",
+      "CI/CD",
+      "Containers"
+    ],
+    "curriculum": [
+      {
+        "section": 1,
+        "title": "Docker Fundamentals",
+        "lessons": [
+          {
+            "id": 1,
+            "title": "Containers vs VMs",
+            "duration": "20 min",
+            "type": "video"
+          },
+          {
+            "id": 2,
+            "title": "Docker Images & Containers",
+            "duration": "35 min",
+            "type": "video"
+          },
+          {
+            "id": 3,
+            "title": "Dockerfile Best Practices",
+            "duration": "30 min",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "section": 2,
+        "title": "Docker Compose",
+        "lessons": [
+          {
+            "id": 4,
+            "title": "Multi-Container Apps",
+            "duration": "40 min",
+            "type": "video"
+          },
+          {
+            "id": 5,
+            "title": "Volumes & Networks",
+            "duration": "35 min",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "section": 3,
+        "title": "Kubernetes",
+        "lessons": [
+          {
+            "id": 6,
+            "title": "K8s Architecture",
+            "duration": "45 min",
+            "type": "video"
+          },
+          {
+            "id": 7,
+            "title": "Pods, Services & Deployments",
+            "duration": "50 min",
+            "type": "video"
+          },
+          {
+            "id": 8,
+            "title": "Helm Charts",
+            "duration": "40 min",
+            "type": "video"
+          },
+          {
+            "id": 9,
+            "title": "Deploy App to K8s Project",
+            "duration": "90 min",
+            "type": "project"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Ethical Hacking & Cybersecurity",
+    "instructor": "Nathan Clarke",
+    "duration": "38 hours",
+    "rating": 4.7,
+    "students": 88000,
+    "price": 29.99,
+    "level": "Advanced",
+    "description": "Learn ethical hacking, penetration testing, network security, and how to protect systems.",
+    "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=750&h=422&fit=crop&auto=format",
+    "category": "Cybersecurity",
+    "tags": [
+      "Ethical Hacking",
+      "Penetration Testing",
+      "Kali Linux",
+      "Network Security"
+    ],
+    "curriculum": [
+      {
+        "section": 1,
+        "title": "Introduction to Cybersecurity",
+        "lessons": [
+          {
+            "id": 1,
+            "title": "Cybersecurity Landscape",
+            "duration": "20 min",
+            "type": "video"
+          },
+          {
+            "id": 2,
+            "title": "Setting Up Kali Linux",
+            "duration": "25 min",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "section": 2,
+        "title": "Network Hacking",
+        "lessons": [
+          {
+            "id": 3,
+            "title": "Network Scanning with Nmap",
+            "duration": "35 min",
+            "type": "video"
+          },
+          {
+            "id": 4,
+            "title": "Man-in-the-Middle Attacks",
+            "duration": "40 min",
+            "type": "video"
+          },
+          {
+            "id": 5,
+            "title": "Wi-Fi Cracking",
+            "duration": "35 min",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "section": 3,
+        "title": "Web Application Security",
+        "lessons": [
+          {
+            "id": 6,
+            "title": "SQL Injection",
+            "duration": "40 min",
+            "type": "video"
+          },
+          {
+            "id": 7,
+            "title": "XSS Attacks",
+            "duration": "35 min",
+            "type": "video"
+          },
+          {
+            "id": 8,
+            "title": "CTF Challenge Lab",
+            "duration": "90 min",
+            "type": "project"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Graphic Design with Adobe Photoshop & Illustrator",
+    "instructor": "Sophie Martin",
+    "duration": "20 hours",
+    "rating": 4.6,
+    "students": 47000,
+    "price": 17.99,
+    "level": "Beginner",
+    "description": "Master Photoshop and Illustrator for logo design, photo editing, and brand identity creation.",
+    "image": "https://images.unsplash.com/photo-1626785774625-0b1c2c4eab67?w=750&h=422&fit=crop&auto=format",
+    "category": "Design",
+    "tags": [
+      "Photoshop",
+      "Illustrator",
+      "Graphic Design",
+      "Logo Design",
+      "Branding"
+    ],
+    "curriculum": [
+      {
+        "section": 1,
+        "title": "Photoshop Basics",
+        "lessons": [
+          {
+            "id": 1,
+            "title": "Interface & Workspace",
+            "duration": "15 min",
+            "type": "video"
+          },
+          {
+            "id": 2,
+            "title": "Layers & Masks",
+            "duration": "30 min",
+            "type": "video"
+          },
+          {
+            "id": 3,
+            "title": "Photo Retouching",
+            "duration": "35 min",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "section": 2,
+        "title": "Illustrator Essentials",
+        "lessons": [
+          {
+            "id": 4,
+            "title": "Vector Drawing Tools",
+            "duration": "30 min",
+            "type": "video"
+          },
+          {
+            "id": 5,
+            "title": "Pen Tool Mastery",
+            "duration": "35 min",
+            "type": "video"
+          },
+          {
+            "id": 6,
+            "title": "Logo Design Project",
+            "duration": "60 min",
+            "type": "project"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Data Structures & Algorithms in Python",
+    "instructor": "James Liu",
+    "duration": "27 hours",
+    "rating": 4.8,
+    "students": 134000,
+    "price": 22.99,
+    "level": "Intermediate",
+    "description": "Crack coding interviews. Master arrays, trees, graphs, dynamic programming and system design.",
+    "image": "https://images.unsplash.com/photo-1580894732444-8ecded7900cd?w=750&h=422&fit=crop&auto=format",
+    "category": "Computer Science",
+    "tags": [
+      "Python",
+      "Algorithms",
+      "Data Structures",
+      "LeetCode",
+      "Interviews"
+    ],
+    "curriculum": [
+      {
+        "section": 1,
+        "title": "Arrays & Strings",
+        "lessons": [
+          {
+            "id": 1,
+            "title": "Big O Notation",
+            "duration": "25 min",
+            "type": "video"
+          },
+          {
+            "id": 2,
+            "title": "Two Pointers",
+            "duration": "30 min",
+            "type": "video"
+          },
+          {
+            "id": 3,
+            "title": "Sliding Window",
+            "duration": "30 min",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "section": 2,
+        "title": "Trees & Graphs",
+        "lessons": [
+          {
+            "id": 4,
+            "title": "Binary Search Trees",
+            "duration": "40 min",
+            "type": "video"
+          },
+          {
+            "id": 5,
+            "title": "BFS & DFS",
+            "duration": "35 min",
+            "type": "video"
+          },
+          {
+            "id": 6,
+            "title": "Graph Problems",
+            "duration": "40 min",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "section": 3,
+        "title": "Dynamic Programming",
+        "lessons": [
+          {
+            "id": 7,
+            "title": "Memoization vs Tabulation",
+            "duration": "35 min",
+            "type": "video"
+          },
+          {
+            "id": 8,
+            "title": "Classic DP Problems",
+            "duration": "50 min",
+            "type": "video"
+          },
+          {
+            "id": 9,
+            "title": "Mock Interview Session",
+            "duration": "60 min",
+            "type": "project"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "SQL & Database Design Bootcamp",
+    "instructor": "Rachel Green",
+    "duration": "16 hours",
+    "rating": 4.7,
+    "students": 76000,
+    "price": 15.99,
+    "level": "Beginner",
+    "description": "Learn SQL from scratch \u2014 queries, joins, stored procedures, indexes, and database design.",
+    "image": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=750&h=422&fit=crop&auto=format",
+    "category": "Database",
+    "tags": [
+      "SQL",
+      "MySQL",
+      "PostgreSQL",
+      "Database Design",
+      "Normalization"
+    ],
+    "curriculum": [
+      {
+        "section": 1,
+        "title": "SQL Fundamentals",
+        "lessons": [
+          {
+            "id": 1,
+            "title": "SELECT & WHERE",
+            "duration": "20 min",
+            "type": "video"
+          },
+          {
+            "id": 2,
+            "title": "JOINs Explained",
+            "duration": "30 min",
+            "type": "video"
+          },
+          {
+            "id": 3,
+            "title": "Aggregate Functions",
+            "duration": "25 min",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "section": 2,
+        "title": "Advanced SQL",
+        "lessons": [
+          {
+            "id": 4,
+            "title": "Subqueries & CTEs",
+            "duration": "35 min",
+            "type": "video"
+          },
+          {
+            "id": 5,
+            "title": "Window Functions",
+            "duration": "35 min",
+            "type": "video"
+          },
+          {
+            "id": 6,
+            "title": "Stored Procedures & Triggers",
+            "duration": "30 min",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "section": 3,
+        "title": "Database Design",
+        "lessons": [
+          {
+            "id": 7,
+            "title": "Normalization (1NF - 3NF)",
+            "duration": "30 min",
+            "type": "video"
+          },
+          {
+            "id": 8,
+            "title": "ER Diagrams",
+            "duration": "25 min",
+            "type": "video"
+          },
+          {
+            "id": 9,
+            "title": "E-Commerce DB Project",
+            "duration": "75 min",
+            "type": "project"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "TypeScript: The Complete Developer's Guide",
+    "instructor": "Tom Wilson",
+    "duration": "21 hours",
+    "rating": 4.7,
+    "students": 58000,
+    "price": 19.99,
+    "level": "Intermediate",
+    "description": "Master TypeScript with generics, decorators, advanced types, and integration with React and Node.",
+    "image": "https://images.unsplash.com/photo-1516116216624-53ad0571bc3e?w=750&h=422&fit=crop&auto=format",
+    "category": "Development",
+    "tags": [
+      "TypeScript",
+      "JavaScript",
+      "React",
+      "Node.js",
+      "Generics"
+    ],
+    "curriculum": [
+      {
+        "section": 1,
+        "title": "TypeScript Basics",
+        "lessons": [
+          {
+            "id": 1,
+            "title": "Types & Interfaces",
+            "duration": "25 min",
+            "type": "video"
+          },
+          {
+            "id": 2,
+            "title": "Enums & Tuples",
+            "duration": "20 min",
+            "type": "video"
+          },
+          {
+            "id": 3,
+            "title": "Functions & Type Guards",
+            "duration": "25 min",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "section": 2,
+        "title": "Advanced TypeScript",
+        "lessons": [
+          {
+            "id": 4,
+            "title": "Generics In Depth",
+            "duration": "40 min",
+            "type": "video"
+          },
+          {
+            "id": 5,
+            "title": "Decorators",
+            "duration": "35 min",
+            "type": "video"
+          },
+          {
+            "id": 6,
+            "title": "Utility Types",
+            "duration": "30 min",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "section": 3,
+        "title": "TypeScript in Practice",
+        "lessons": [
+          {
+            "id": 7,
+            "title": "React with TypeScript",
+            "duration": "45 min",
+            "type": "video"
+          },
+          {
+            "id": 8,
+            "title": "Express with TypeScript",
+            "duration": "40 min",
+            "type": "video"
+          },
+          {
+            "id": 9,
+            "title": "Build a Typed API",
+            "duration": "80 min",
+            "type": "project"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Machine Learning A-Z with Python & R",
+    "instructor": "Andrew Fields",
+    "duration": "44 hours",
+    "rating": 4.5,
+    "students": 192000,
+    "price": 26.99,
+    "level": "Intermediate",
+    "description": "A hands-on guide to machine learning from regression to deep learning with real-world datasets.",
+    "image": "https://images.unsplash.com/photo-1527474305487-b87b222841cc?w=750&h=422&fit=crop&auto=format",
+    "category": "Data Science",
+    "tags": [
+      "Machine Learning",
+      "Python",
+      "R",
+      "Scikit-Learn",
+      "Statistics"
+    ],
+    "curriculum": [
+      {
+        "section": 1,
+        "title": "Regression",
+        "lessons": [
+          {
+            "id": 1,
+            "title": "Linear Regression",
+            "duration": "35 min",
+            "type": "video"
+          },
+          {
+            "id": 2,
+            "title": "Polynomial Regression",
+            "duration": "30 min",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "section": 2,
+        "title": "Classification",
+        "lessons": [
+          {
+            "id": 3,
+            "title": "Logistic Regression",
+            "duration": "35 min",
+            "type": "video"
+          },
+          {
+            "id": 4,
+            "title": "Decision Trees & Random Forests",
+            "duration": "40 min",
+            "type": "video"
+          },
+          {
+            "id": 5,
+            "title": "SVM",
+            "duration": "35 min",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "section": 3,
+        "title": "Clustering",
+        "lessons": [
+          {
+            "id": 6,
+            "title": "K-Means Clustering",
+            "duration": "30 min",
+            "type": "video"
+          },
+          {
+            "id": 7,
+            "title": "Hierarchical Clustering",
+            "duration": "25 min",
+            "type": "video"
+          },
+          {
+            "id": 8,
+            "title": "Capstone Project",
+            "duration": "90 min",
+            "type": "project"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Vue.js 3: The Complete Guide",
+    "instructor": "Maximilian Schwarz",
+    "duration": "23 hours",
+    "rating": 4.7,
+    "students": 44000,
+    "price": 19.99,
+    "level": "Intermediate",
+    "description": "Build powerful Vue.js 3 applications with Composition API, Vuex, Vue Router and more.",
+    "image": "https://images.unsplash.com/photo-1622542796254-5b9c46ab0d2f?w=750&h=422&fit=crop&auto=format",
+    "category": "Development",
+    "tags": [
+      "Vue.js",
+      "Composition API",
+      "Vuex",
+      "Vue Router",
+      "JavaScript"
+    ],
+    "curriculum": [
+      {
+        "section": 1,
+        "title": "Vue Basics",
+        "lessons": [
+          {
+            "id": 1,
+            "title": "Vue Instance & Directives",
+            "duration": "25 min",
+            "type": "video"
+          },
+          {
+            "id": 2,
+            "title": "Components & Props",
+            "duration": "30 min",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "section": 2,
+        "title": "Composition API",
+        "lessons": [
+          {
+            "id": 3,
+            "title": "setup() & Reactivity",
+            "duration": "35 min",
+            "type": "video"
+          },
+          {
+            "id": 4,
+            "title": "Composables",
+            "duration": "30 min",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "section": 3,
+        "title": "State & Routing",
+        "lessons": [
+          {
+            "id": 5,
+            "title": "Pinia State Management",
+            "duration": "35 min",
+            "type": "video"
+          },
+          {
+            "id": 6,
+            "title": "Vue Router 4",
+            "duration": "30 min",
+            "type": "video"
+          },
+          {
+            "id": 7,
+            "title": "Build a Social App",
+            "duration": "100 min",
+            "type": "project"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Flutter & Dart: Complete Cross-Platform App Dev",
+    "instructor": "Angela Wu",
+    "duration": "29 hours",
+    "rating": 4.8,
+    "students": 91000,
+    "price": 23.99,
+    "level": "Beginner",
+    "description": "Build beautiful iOS and Android apps using Flutter and Dart. Full course from beginner to advanced.",
+    "image": "https://images.unsplash.com/photo-1575909812264-6902b55846ad?w=750&h=422&fit=crop&auto=format",
+    "category": "Mobile Development",
+    "tags": [
+      "Flutter",
+      "Dart",
+      "iOS",
+      "Android",
+      "Cross-Platform"
+    ],
+    "curriculum": [
+      {
+        "section": 1,
+        "title": "Dart Language",
+        "lessons": [
+          {
+            "id": 1,
+            "title": "Dart Basics",
+            "duration": "25 min",
+            "type": "video"
+          },
+          {
+            "id": 2,
+            "title": "OOP in Dart",
+            "duration": "30 min",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "section": 2,
+        "title": "Flutter UI",
+        "lessons": [
+          {
+            "id": 3,
+            "title": "Widgets & Layouts",
+            "duration": "40 min",
+            "type": "video"
+          },
+          {
+            "id": 4,
+            "title": "Stateful Widgets",
+            "duration": "35 min",
+            "type": "video"
+          },
+          {
+            "id": 5,
+            "title": "Animations",
+            "duration": "30 min",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "section": 3,
+        "title": "App Features",
+        "lessons": [
+          {
+            "id": 6,
+            "title": "Firebase Integration",
+            "duration": "45 min",
+            "type": "video"
+          },
+          {
+            "id": 7,
+            "title": "State Management with Provider",
+            "duration": "40 min",
+            "type": "video"
+          },
+          {
+            "id": 8,
+            "title": "Chat App Project",
+            "duration": "120 min",
+            "type": "project"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Django REST Framework: Build APIs with Python",
+    "instructor": "Kevin Roberts",
+    "duration": "22 hours",
+    "rating": 4.6,
+    "students": 52000,
+    "price": 21.99,
+    "level": "Intermediate",
+    "description": "Build production-ready REST APIs with Django, DRF, PostgreSQL, JWT authentication and Docker.",
+    "image": "https://images.unsplash.com/photo-1506399558188-accea47fe0c5?w=750&h=422&fit=crop&auto=format",
+    "category": "Development",
+    "tags": [
+      "Django",
+      "Python",
+      "REST API",
+      "PostgreSQL",
+      "JWT"
+    ],
+    "curriculum": [
+      {
+        "section": 1,
+        "title": "Django Fundamentals",
+        "lessons": [
+          {
+            "id": 1,
+            "title": "MTV Architecture",
+            "duration": "20 min",
+            "type": "video"
+          },
+          {
+            "id": 2,
+            "title": "Models & Migrations",
+            "duration": "30 min",
+            "type": "video"
+          },
+          {
+            "id": 3,
+            "title": "Django Admin",
+            "duration": "20 min",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "section": 2,
+        "title": "Django REST Framework",
+        "lessons": [
+          {
+            "id": 4,
+            "title": "Serializers",
+            "duration": "35 min",
+            "type": "video"
+          },
+          {
+            "id": 5,
+            "title": "ViewSets & Routers",
+            "duration": "30 min",
+            "type": "video"
+          },
+          {
+            "id": 6,
+            "title": "Permissions & Authentication",
+            "duration": "40 min",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "section": 3,
+        "title": "Production-Ready",
+        "lessons": [
+          {
+            "id": 7,
+            "title": "Celery & Redis",
+            "duration": "45 min",
+            "type": "video"
+          },
+          {
+            "id": 8,
+            "title": "Deployment with Docker",
+            "duration": "40 min",
+            "type": "video"
+          },
+          {
+            "id": 9,
+            "title": "Blog API Project",
+            "duration": "90 min",
+            "type": "project"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Complete Java Masterclass",
+    "instructor": "Tim Buchmann",
+    "duration": "80 hours",
+    "rating": 4.6,
+    "students": 248000,
+    "price": 29.99,
+    "level": "Beginner",
+    "description": "The most comprehensive Java course. From basics to advanced OOP, Spring Boot, and databases.",
+    "image": "https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?w=750&h=422&fit=crop&auto=format",
+    "category": "Development",
+    "tags": [
+      "Java",
+      "OOP",
+      "Spring Boot",
+      "JDBC",
+      "Collections"
+    ],
+    "curriculum": [
+      {
+        "section": 1,
+        "title": "Java Basics",
+        "lessons": [
+          {
+            "id": 1,
+            "title": "JDK Setup & Hello World",
+            "duration": "15 min",
+            "type": "video"
+          },
+          {
+            "id": 2,
+            "title": "Variables & Operators",
+            "duration": "25 min",
+            "type": "video"
+          },
+          {
+            "id": 3,
+            "title": "Control Flow",
+            "duration": "30 min",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "section": 2,
+        "title": "OOP in Java",
+        "lessons": [
+          {
+            "id": 4,
+            "title": "Classes & Objects",
+            "duration": "35 min",
+            "type": "video"
+          },
+          {
+            "id": 5,
+            "title": "Inheritance & Polymorphism",
+            "duration": "40 min",
+            "type": "video"
+          },
+          {
+            "id": 6,
+            "title": "Interfaces & Abstract Classes",
+            "duration": "35 min",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "section": 3,
+        "title": "Spring Boot",
+        "lessons": [
+          {
+            "id": 7,
+            "title": "Spring Boot REST APIs",
+            "duration": "50 min",
+            "type": "video"
+          },
+          {
+            "id": 8,
+            "title": "Spring Data JPA",
+            "duration": "45 min",
+            "type": "video"
+          },
+          {
+            "id": 9,
+            "title": "Task Manager App",
+            "duration": "90 min",
+            "type": "project"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Next.js 14: The Full Stack Framework",
+    "instructor": "Lena Fischer",
+    "duration": "20 hours",
+    "rating": 4.8,
+    "students": 62000,
+    "price": 21.99,
+    "level": "Intermediate",
+    "description": "Master Next.js 14 with App Router, Server Actions, Prisma, and full-stack deployment on Vercel.",
+    "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=750&h=422&fit=crop&auto=format",
+    "category": "Development",
+    "tags": [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Prisma",
+      "Vercel"
+    ],
+    "curriculum": [
+      {
+        "section": 1,
+        "title": "Next.js Fundamentals",
+        "lessons": [
+          {
+            "id": 1,
+            "title": "App Router & File Conventions",
+            "duration": "30 min",
+            "type": "video"
+          },
+          {
+            "id": 2,
+            "title": "Server vs Client Components",
+            "duration": "25 min",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "section": 2,
+        "title": "Data Fetching",
+        "lessons": [
+          {
+            "id": 3,
+            "title": "Server Actions",
+            "duration": "35 min",
+            "type": "video"
+          },
+          {
+            "id": 4,
+            "title": "Prisma ORM",
+            "duration": "40 min",
+            "type": "video"
+          },
+          {
+            "id": 5,
+            "title": "API Routes",
+            "duration": "30 min",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "section": 3,
+        "title": "Auth & Deployment",
+        "lessons": [
+          {
+            "id": 6,
+            "title": "NextAuth.js",
+            "duration": "40 min",
+            "type": "video"
+          },
+          {
+            "id": 7,
+            "title": "Vercel Deployment",
+            "duration": "25 min",
+            "type": "video"
+          },
+          {
+            "id": 8,
+            "title": "Full Stack Blog Project",
+            "duration": "100 min",
+            "type": "project"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Blockchain Development & Solidity",
+    "instructor": "Marco Rossi",
+    "duration": "25 hours",
+    "rating": 4.5,
+    "students": 38000,
+    "price": 27.99,
+    "level": "Advanced",
+    "description": "Build smart contracts with Solidity, deploy DApps on Ethereum, and work with Web3.js.",
+    "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=750&h=422&fit=crop&auto=format",
+    "category": "Blockchain",
+    "tags": [
+      "Solidity",
+      "Ethereum",
+      "Web3",
+      "Smart Contracts",
+      "DApps"
+    ],
+    "curriculum": [
+      {
+        "section": 1,
+        "title": "Blockchain Basics",
+        "lessons": [
+          {
+            "id": 1,
+            "title": "How Blockchain Works",
+            "duration": "25 min",
+            "type": "video"
+          },
+          {
+            "id": 2,
+            "title": "Ethereum & EVM",
+            "duration": "30 min",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "section": 2,
+        "title": "Solidity Smart Contracts",
+        "lessons": [
+          {
+            "id": 3,
+            "title": "Solidity Syntax",
+            "duration": "35 min",
+            "type": "video"
+          },
+          {
+            "id": 4,
+            "title": "Contract Security",
+            "duration": "40 min",
+            "type": "video"
+          },
+          {
+            "id": 5,
+            "title": "ERC-20 Tokens",
+            "duration": "35 min",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "section": 3,
+        "title": "DApp Development",
+        "lessons": [
+          {
+            "id": 6,
+            "title": "Web3.js & Ethers.js",
+            "duration": "40 min",
+            "type": "video"
+          },
+          {
+            "id": 7,
+            "title": "Hardhat Testing",
+            "duration": "35 min",
+            "type": "video"
+          },
+          {
+            "id": 8,
+            "title": "NFT Marketplace Project",
+            "duration": "120 min",
+            "type": "project"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Product Management: Zero to PM",
+    "instructor": "Jessica Lee",
+    "duration": "15 hours",
+    "rating": 4.6,
+    "students": 29000,
+    "price": 16.99,
+    "level": "Beginner",
+    "description": "Land your first PM role. Learn product strategy, roadmapping, agile, user stories and metrics.",
+    "image": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=750&h=422&fit=crop&auto=format",
+    "category": "Business",
+    "tags": [
+      "Product Management",
+      "Agile",
+      "Roadmap",
+      "User Stories",
+      "Metrics"
+    ],
+    "curriculum": [
+      {
+        "section": 1,
+        "title": "PM Fundamentals",
+        "lessons": [
+          {
+            "id": 1,
+            "title": "What Does a PM Do?",
+            "duration": "15 min",
+            "type": "video"
+          },
+          {
+            "id": 2,
+            "title": "Product Strategy",
+            "duration": "25 min",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "section": 2,
+        "title": "Agile & Roadmapping",
+        "lessons": [
+          {
+            "id": 3,
+            "title": "Scrum & Sprint Planning",
+            "duration": "30 min",
+            "type": "video"
+          },
+          {
+            "id": 4,
+            "title": "Writing User Stories",
+            "duration": "25 min",
+            "type": "video"
+          },
+          {
+            "id": 5,
+            "title": "Roadmap Creation",
+            "duration": "30 min",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "section": 3,
+        "title": "Metrics & Growth",
+        "lessons": [
+          {
+            "id": 6,
+            "title": "KPIs & North Star Metrics",
+            "duration": "30 min",
+            "type": "video"
+          },
+          {
+            "id": 7,
+            "title": "A/B Testing",
+            "duration": "25 min",
+            "type": "video"
+          },
+          {
+            "id": 8,
+            "title": "PM Interview Prep",
+            "duration": "45 min",
+            "type": "video"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Complete C++ Programming Course",
+    "instructor": "Frank Miller",
+    "duration": "45 hours",
+    "rating": 4.7,
+    "students": 115000,
+    "price": 24.99,
+    "level": "Beginner",
+    "description": "Learn C++ from scratch to advanced. Covers OOP, STL, memory management, and game development.",
+    "image": "https://images.unsplash.com/photo-1515879218367-8466081efront?w=750&h=422&fit=crop&auto=format",
+    "category": "Development",
+    "tags": [
+      "C++",
+      "OOP",
+      "STL",
+      "Memory Management",
+      "Game Dev"
+    ],
+    "curriculum": [
+      {
+        "section": 1,
+        "title": "C++ Basics",
+        "lessons": [
+          {
+            "id": 1,
+            "title": "Hello C++ World",
+            "duration": "15 min",
+            "type": "video"
+          },
+          {
+            "id": 2,
+            "title": "Pointers & References",
+            "duration": "35 min",
+            "type": "video"
+          },
+          {
+            "id": 3,
+            "title": "Arrays & Strings",
+            "duration": "30 min",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "section": 2,
+        "title": "OOP in C++",
+        "lessons": [
+          {
+            "id": 4,
+            "title": "Classes & Constructors",
+            "duration": "35 min",
+            "type": "video"
+          },
+          {
+            "id": 5,
+            "title": "Inheritance & Templates",
+            "duration": "40 min",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "section": 3,
+        "title": "STL & Modern C++",
+        "lessons": [
+          {
+            "id": 6,
+            "title": "Vectors, Maps & Sets",
+            "duration": "35 min",
+            "type": "video"
+          },
+          {
+            "id": 7,
+            "title": "Lambda & Smart Pointers",
+            "duration": "40 min",
+            "type": "video"
+          },
+          {
+            "id": 8,
+            "title": "Game Prototype Project",
+            "duration": "90 min",
+            "type": "project"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "title": "Microsoft Excel: From Beginner to Advanced",
+    "instructor": "Diana Ross",
+    "duration": "17 hours",
+    "rating": 4.7,
+    "students": 163000,
+    "price": 13.99,
+    "level": "Beginner",
+    "description": "Master Excel formulas, pivot tables, VLOOKUP, macros, charts, and data analysis.",
+    "image": "https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=750&h=422&fit=crop&auto=format",
+    "category": "Business",
+    "tags": [
+      "Excel",
+      "VLOOKUP",
+      "Pivot Tables",
+      "Macros",
+      "Data Analysis"
+    ],
+    "curriculum": [
+      {
+        "section": 1,
+        "title": "Excel Basics",
+        "lessons": [
+          {
+            "id": 1,
+            "title": "Navigation & Formatting",
+            "duration": "20 min",
+            "type": "video"
+          },
+          {
+            "id": 2,
+            "title": "Essential Formulas",
+            "duration": "30 min",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "section": 2,
+        "title": "Data Analysis",
+        "lessons": [
+          {
+            "id": 3,
+            "title": "VLOOKUP & INDEX/MATCH",
+            "duration": "30 min",
+            "type": "video"
+          },
+          {
+            "id": 4,
+            "title": "Pivot Tables & Charts",
+            "duration": "35 min",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "section": 3,
+        "title": "Automation",
+        "lessons": [
+          {
+            "id": 5,
+            "title": "Macros & VBA Intro",
+            "duration": "40 min",
+            "type": "video"
+          },
+          {
+            "id": 6,
+            "title": "Power Query",
+            "duration": "35 min",
+            "type": "video"
+          },
+          {
+            "id": 7,
+            "title": "Financial Dashboard Project",
+            "duration": "60 min",
+            "type": "project"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "title": "Game Development with Unity & C#",
+    "instructor": "Gary Scott",
+    "duration": "36 hours",
+    "rating": 4.7,
+    "students": 87000,
+    "price": 24.99,
+    "level": "Beginner",
+    "description": "Build 2D and 3D games with Unity Engine and C#. Covers physics, animations, UI, and publishing.",
+    "image": "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=750&h=422&fit=crop&auto=format",
+    "category": "Game Development",
+    "tags": [
+      "Unity",
+      "C#",
+      "2D Games",
+      "3D Games",
+      "Game Physics"
+    ],
+    "curriculum": [
+      {
+        "section": 1,
+        "title": "Unity Basics",
+        "lessons": [
+          {
+            "id": 1,
+            "title": "Unity Interface Tour",
+            "duration": "20 min",
+            "type": "video"
+          },
+          {
+            "id": 2,
+            "title": "GameObjects & Components",
+            "duration": "25 min",
+            "type": "video"
+          },
+          {
+            "id": 3,
+            "title": "C# Scripting Basics",
+            "duration": "35 min",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "section": 2,
+        "title": "2D Game Development",
+        "lessons": [
+          {
+            "id": 4,
+            "title": "Tilemaps & Sprites",
+            "duration": "30 min",
+            "type": "video"
+          },
+          {
+            "id": 5,
+            "title": "Physics2D & Collisions",
+            "duration": "35 min",
+            "type": "video"
+          },
+          {
+            "id": 6,
+            "title": "Build a Platformer Game",
+            "duration": "90 min",
+            "type": "project"
+          }
+        ]
+      },
+      {
+        "section": 3,
+        "title": "3D Game Development",
+        "lessons": [
+          {
+            "id": 7,
+            "title": "3D Physics & Lighting",
+            "duration": "40 min",
+            "type": "video"
+          },
+          {
+            "id": 8,
+            "title": "Animations & Rigging",
+            "duration": "35 min",
+            "type": "video"
+          },
+          {
+            "id": 9,
+            "title": "Build a 3D Shooter",
+            "duration": "120 min",
+            "type": "project"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "title": "Artificial Intelligence: A-Z",
+    "instructor": "Hadelin de Ponteves",
+    "duration": "32 hours",
+    "rating": 4.5,
+    "students": 75000,
+    "price": 25.99,
+    "level": "Advanced",
+    "description": "Build AI models using Q-Learning, Deep Q-Learning, A3C, and reinforcement learning techniques.",
+    "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=750&h=422&fit=crop&auto=format",
+    "category": "AI / ML",
+    "tags": [
+      "AI",
+      "Reinforcement Learning",
+      "Q-Learning",
+      "Deep Learning",
+      "OpenAI Gym"
+    ],
+    "curriculum": [
+      {
+        "section": 1,
+        "title": "AI Foundations",
+        "lessons": [
+          {
+            "id": 1,
+            "title": "What is AI?",
+            "duration": "20 min",
+            "type": "video"
+          },
+          {
+            "id": 2,
+            "title": "Reinforcement Learning Basics",
+            "duration": "30 min",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "section": 2,
+        "title": "Q-Learning",
+        "lessons": [
+          {
+            "id": 3,
+            "title": "Bellman Equation",
+            "duration": "25 min",
+            "type": "video"
+          },
+          {
+            "id": 4,
+            "title": "Deep Q-Network (DQN)",
+            "duration": "50 min",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "section": 3,
+        "title": "Advanced AI",
+        "lessons": [
+          {
+            "id": 5,
+            "title": "A3C Algorithm",
+            "duration": "45 min",
+            "type": "video"
+          },
+          {
+            "id": 6,
+            "title": "Train a Self-Driving Car AI",
+            "duration": "120 min",
+            "type": "project"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "title": "Figma for Beginners: UI Design Course",
+    "instructor": "Nina Torres",
+    "duration": "10 hours",
+    "rating": 4.8,
+    "students": 42000,
+    "price": 12.99,
+    "level": "Beginner",
+    "description": "Learn Figma from scratch and design beautiful mobile and web interfaces with modern design principles.",
+    "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=750&h=422&fit=crop&auto=format",
+    "category": "Design",
+    "tags": [
+      "Figma",
+      "UI Design",
+      "Mobile Design",
+      "Prototyping",
+      "Design Systems"
+    ],
+    "curriculum": [
+      {
+        "section": 1,
+        "title": "Figma Basics",
+        "lessons": [
+          {
+            "id": 1,
+            "title": "Getting Started with Figma",
+            "duration": "15 min",
+            "type": "video"
+          },
+          {
+            "id": 2,
+            "title": "Frames, Groups & Layers",
+            "duration": "20 min",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "section": 2,
+        "title": "UI Components",
+        "lessons": [
+          {
+            "id": 3,
+            "title": "Creating Buttons & Cards",
+            "duration": "25 min",
+            "type": "video"
+          },
+          {
+            "id": 4,
+            "title": "Design Systems & Tokens",
+            "duration": "30 min",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "section": 3,
+        "title": "Prototyping & Handoff",
+        "lessons": [
+          {
+            "id": 5,
+            "title": "Interactive Prototypes",
+            "duration": "30 min",
+            "type": "video"
+          },
+          {
+            "id": 6,
+            "title": "Dev Handoff",
+            "duration": "20 min",
+            "type": "video"
+          },
+          {
+            "id": 7,
+            "title": "Design a Food App UI",
+            "duration": "75 min",
+            "type": "project"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "title": "Financial Literacy & Personal Finance",
+    "instructor": "Robert Kaye",
+    "duration": "12 hours",
+    "rating": 4.7,
+    "students": 53000,
+    "price": 14.99,
+    "level": "Beginner",
+    "description": "Master budgeting, investing, retirement planning, taxes, and building wealth from scratch.",
+    "image": "https://images.unsplash.com/photo-1573804633927-bfcbcd909acd?w=750&h=422&fit=crop&auto=format",
+    "category": "Finance",
+    "tags": [
+      "Personal Finance",
+      "Investing",
+      "Budgeting",
+      "Stocks",
+      "Retirement"
+    ],
+    "curriculum": [
+      {
+        "section": 1,
+        "title": "Money Fundamentals",
+        "lessons": [
+          {
+            "id": 1,
+            "title": "Creating a Budget",
+            "duration": "20 min",
+            "type": "video"
+          },
+          {
+            "id": 2,
+            "title": "Emergency Fund",
+            "duration": "15 min",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "section": 2,
+        "title": "Investing",
+        "lessons": [
+          {
+            "id": 3,
+            "title": "Stocks & ETFs",
+            "duration": "30 min",
+            "type": "video"
+          },
+          {
+            "id": 4,
+            "title": "Index Funds & Compound Interest",
+            "duration": "25 min",
+            "type": "video"
+          },
+          {
+            "id": 5,
+            "title": "Retirement Accounts (401k, IRA)",
+            "duration": "25 min",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "section": 3,
+        "title": "Wealth Building",
+        "lessons": [
+          {
+            "id": 6,
+            "title": "Real Estate Basics",
+            "duration": "30 min",
+            "type": "video"
+          },
+          {
+            "id": 7,
+            "title": "Tax Optimization",
+            "duration": "25 min",
+            "type": "video"
+          },
+          {
+            "id": 8,
+            "title": "Personal Finance Plan",
+            "duration": "45 min",
+            "type": "project"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "title": "3D Modeling with Blender",
+    "instructor": "Carlos Mendez",
+    "duration": "28 hours",
+    "rating": 4.8,
+    "students": 64000,
+    "price": 19.99,
+    "level": "Beginner",
+    "description": "Create stunning 3D models, animations, and renders using Blender \u2014 free & open-source software.",
+    "image": "https://images.unsplash.com/photo-1434030216411-0b793f4b6f74?w=750&h=422&fit=crop&auto=format",
+    "category": "Design",
+    "tags": [
+      "Blender",
+      "3D Modeling",
+      "Animation",
+      "Rendering",
+      "VFX"
+    ],
+    "curriculum": [
+      {
+        "section": 1,
+        "title": "Blender Basics",
+        "lessons": [
+          {
+            "id": 1,
+            "title": "Interface & Navigation",
+            "duration": "20 min",
+            "type": "video"
+          },
+          {
+            "id": 2,
+            "title": "Modeling Basics",
+            "duration": "35 min",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "section": 2,
+        "title": "Materials & Lighting",
+        "lessons": [
+          {
+            "id": 3,
+            "title": "Shader Editor",
+            "duration": "30 min",
+            "type": "video"
+          },
+          {
+            "id": 4,
+            "title": "HDRI Lighting",
+            "duration": "25 min",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "section": 3,
+        "title": "Animation & Rendering",
+        "lessons": [
+          {
+            "id": 5,
+            "title": "Keyframe Animation",
+            "duration": "35 min",
+            "type": "video"
+          },
+          {
+            "id": 6,
+            "title": "Cycles Rendering",
+            "duration": "30 min",
+            "type": "video"
+          },
+          {
+            "id": 7,
+            "title": "Donut Animation Project",
+            "duration": "90 min",
+            "type": "project"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "title": "Linux Command Line & Shell Scripting",
+    "instructor": "Ethan Brown",
+    "duration": "14 hours",
+    "rating": 4.7,
+    "students": 71000,
+    "price": 15.99,
+    "level": "Beginner",
+    "description": "Master Linux terminal, file systems, bash scripting, SSH, and system administration.",
+    "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=750&h=422&fit=crop&auto=format",
+    "category": "DevOps",
+    "tags": [
+      "Linux",
+      "Bash",
+      "Shell Scripting",
+      "SSH",
+      "System Admin"
+    ],
+    "curriculum": [
+      {
+        "section": 1,
+        "title": "Linux Basics",
+        "lessons": [
+          {
+            "id": 1,
+            "title": "File System & Navigation",
+            "duration": "20 min",
+            "type": "video"
+          },
+          {
+            "id": 2,
+            "title": "Permissions & Users",
+            "duration": "25 min",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "section": 2,
+        "title": "Shell Scripting",
+        "lessons": [
+          {
+            "id": 3,
+            "title": "Variables & Control Flow",
+            "duration": "30 min",
+            "type": "video"
+          },
+          {
+            "id": 4,
+            "title": "Functions & Regex",
+            "duration": "30 min",
+            "type": "video"
+          },
+          {
+            "id": 5,
+            "title": "Automation Scripts Project",
+            "duration": "60 min",
+            "type": "project"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "title": "Natural Language Processing with Python",
+    "instructor": "Amelia Watson",
+    "duration": "19 hours",
+    "rating": 4.6,
+    "students": 34000,
+    "price": 22.99,
+    "level": "Advanced",
+    "description": "Master NLP with NLTK, spaCy, Hugging Face Transformers, BERT, and build real NLP applications.",
+    "image": "https://images.unsplash.com/photo-1481746902297-718ef648e79a?w=750&h=422&fit=crop&auto=format",
+    "category": "AI / ML",
+    "tags": [
+      "NLP",
+      "BERT",
+      "Transformers",
+      "spaCy",
+      "Hugging Face"
+    ],
+    "curriculum": [
+      {
+        "section": 1,
+        "title": "NLP Fundamentals",
+        "lessons": [
+          {
+            "id": 1,
+            "title": "Text Preprocessing",
+            "duration": "25 min",
+            "type": "video"
+          },
+          {
+            "id": 2,
+            "title": "Tokenization & Embeddings",
+            "duration": "30 min",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "section": 2,
+        "title": "Transformers",
+        "lessons": [
+          {
+            "id": 3,
+            "title": "Attention Mechanism",
+            "duration": "45 min",
+            "type": "video"
+          },
+          {
+            "id": 4,
+            "title": "Fine-Tuning BERT",
+            "duration": "50 min",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "section": 3,
+        "title": "NLP Applications",
+        "lessons": [
+          {
+            "id": 5,
+            "title": "Sentiment Analysis",
+            "duration": "35 min",
+            "type": "video"
+          },
+          {
+            "id": 6,
+            "title": "Build a Chatbot",
+            "duration": "90 min",
+            "type": "project"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "title": "Photography Masterclass: Complete Guide",
+    "instructor": "Olivia Bennett",
+    "duration": "16 hours",
+    "rating": 4.8,
+    "students": 49000,
+    "price": 15.99,
+    "level": "Beginner",
+    "description": "Learn photography from scratch \u2014 composition, lighting, exposure, Lightroom editing and more.",
+    "image": "https://images.unsplash.com/photo-1558655146-364adaf1fcc9?w=750&h=422&fit=crop&auto=format",
+    "category": "Photography",
+    "tags": [
+      "Photography",
+      "Lightroom",
+      "Composition",
+      "Exposure",
+      "Portrait"
+    ],
+    "curriculum": [
+      {
+        "section": 1,
+        "title": "Camera Basics",
+        "lessons": [
+          {
+            "id": 1,
+            "title": "Aperture, Shutter & ISO",
+            "duration": "25 min",
+            "type": "video"
+          },
+          {
+            "id": 2,
+            "title": "Focus & Depth of Field",
+            "duration": "20 min",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "section": 2,
+        "title": "Composition",
+        "lessons": [
+          {
+            "id": 3,
+            "title": "Rule of Thirds",
+            "duration": "20 min",
+            "type": "video"
+          },
+          {
+            "id": 4,
+            "title": "Lighting Techniques",
+            "duration": "30 min",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "section": 3,
+        "title": "Post-Processing",
+        "lessons": [
+          {
+            "id": 5,
+            "title": "Lightroom Workflow",
+            "duration": "40 min",
+            "type": "video"
+          },
+          {
+            "id": 6,
+            "title": "Photo Portfolio Project",
+            "duration": "60 min",
+            "type": "project"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "title": "Complete Guide to TailwindCSS",
+    "instructor": "Sandra Pierce",
+    "duration": "11 hours",
+    "rating": 4.7,
+    "students": 36000,
+    "price": 14.99,
+    "level": "Beginner",
+    "description": "Build modern UIs faster with Tailwind CSS \u2014 utility classes, responsive design, dark mode and more.",
+    "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=750&h=422&fit=crop&auto=format",
+    "category": "Development",
+    "tags": [
+      "TailwindCSS",
+      "CSS",
+      "Responsive Design",
+      "UI",
+      "Dark Mode"
+    ],
+    "curriculum": [
+      {
+        "section": 1,
+        "title": "Tailwind Fundamentals",
+        "lessons": [
+          {
+            "id": 1,
+            "title": "Utility-First Approach",
+            "duration": "15 min",
+            "type": "video"
+          },
+          {
+            "id": 2,
+            "title": "Spacing & Sizing",
+            "duration": "20 min",
+            "type": "video"
+          },
+          {
+            "id": 3,
+            "title": "Flexbox & Grid in Tailwind",
+            "duration": "25 min",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "section": 2,
+        "title": "Advanced Tailwind",
+        "lessons": [
+          {
+            "id": 4,
+            "title": "Custom Themes & Config",
+            "duration": "30 min",
+            "type": "video"
+          },
+          {
+            "id": 5,
+            "title": "Dark Mode",
+            "duration": "20 min",
+            "type": "video"
+          },
+          {
+            "id": 6,
+            "title": "Component Library Project",
+            "duration": "75 min",
+            "type": "project"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "title": "Rust Programming: Complete Beginner to Pro",
+    "instructor": "Patrick Vogt",
+    "duration": "25 hours",
+    "rating": 4.7,
+    "students": 22000,
+    "price": 21.99,
+    "level": "Intermediate",
+    "description": "Master Rust ownership, lifetimes, traits, async programming and build CLI and web servers.",
+    "image": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=750&h=422&fit=crop&auto=format",
+    "category": "Development",
+    "tags": [
+      "Rust",
+      "Systems Programming",
+      "Ownership",
+      "Async",
+      "CLI"
+    ],
+    "curriculum": [
+      {
+        "section": 1,
+        "title": "Rust Basics",
+        "lessons": [
+          {
+            "id": 1,
+            "title": "Ownership & Borrowing",
+            "duration": "40 min",
+            "type": "video"
+          },
+          {
+            "id": 2,
+            "title": "Structs & Enums",
+            "duration": "30 min",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "section": 2,
+        "title": "Advanced Rust",
+        "lessons": [
+          {
+            "id": 3,
+            "title": "Traits & Generics",
+            "duration": "35 min",
+            "type": "video"
+          },
+          {
+            "id": 4,
+            "title": "Lifetimes",
+            "duration": "40 min",
+            "type": "video"
+          },
+          {
+            "id": 5,
+            "title": "Async / Await with Tokio",
+            "duration": "45 min",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "section": 3,
+        "title": "Projects",
+        "lessons": [
+          {
+            "id": 6,
+            "title": "Build a CLI Tool",
+            "duration": "60 min",
+            "type": "project"
+          },
+          {
+            "id": 7,
+            "title": "Build a Web Server with Axum",
+            "duration": "75 min",
+            "type": "project"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "title": "Complete Guide to GraphQL",
+    "instructor": "Ivan Novak",
+    "duration": "13 hours",
+    "rating": 4.6,
+    "students": 28000,
+    "price": 18.99,
+    "level": "Intermediate",
+    "description": "Master GraphQL queries, mutations, subscriptions with Apollo Server and integrate with React.",
+    "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=750&h=422&fit=crop&auto=format",
+    "category": "Development",
+    "tags": [
+      "GraphQL",
+      "Apollo",
+      "React",
+      "Node.js",
+      "API Design"
+    ],
+    "curriculum": [
+      {
+        "section": 1,
+        "title": "GraphQL Fundamentals",
+        "lessons": [
+          {
+            "id": 1,
+            "title": "REST vs GraphQL",
+            "duration": "15 min",
+            "type": "video"
+          },
+          {
+            "id": 2,
+            "title": "Queries & Mutations",
+            "duration": "30 min",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "section": 2,
+        "title": "Apollo Server",
+        "lessons": [
+          {
+            "id": 3,
+            "title": "Resolvers & Schema",
+            "duration": "35 min",
+            "type": "video"
+          },
+          {
+            "id": 4,
+            "title": "Subscriptions",
+            "duration": "30 min",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "section": 3,
+        "title": "Client Integration",
+        "lessons": [
+          {
+            "id": 5,
+            "title": "Apollo Client with React",
+            "duration": "40 min",
+            "type": "video"
+          },
+          {
+            "id": 6,
+            "title": "Full Stack GraphQL Project",
+            "duration": "90 min",
+            "type": "project"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "title": "Data Visualization with D3.js",
+    "instructor": "Yuki Tanaka",
+    "duration": "15 hours",
+    "rating": 4.6,
+    "students": 19000,
+    "price": 19.99,
+    "level": "Intermediate",
+    "description": "Build interactive charts, graphs, maps and dashboards using D3.js and SVG.",
+    "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=750&h=422&fit=crop&auto=format",
+    "category": "Data Science",
+    "tags": [
+      "D3.js",
+      "Data Visualization",
+      "SVG",
+      "Charts",
+      "Dashboards"
+    ],
+    "curriculum": [
+      {
+        "section": 1,
+        "title": "D3 Basics",
+        "lessons": [
+          {
+            "id": 1,
+            "title": "SVG Fundamentals",
+            "duration": "20 min",
+            "type": "video"
+          },
+          {
+            "id": 2,
+            "title": "Data Binding",
+            "duration": "25 min",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "section": 2,
+        "title": "Charts",
+        "lessons": [
+          {
+            "id": 3,
+            "title": "Bar & Line Charts",
+            "duration": "35 min",
+            "type": "video"
+          },
+          {
+            "id": 4,
+            "title": "Pie & Donut Charts",
+            "duration": "25 min",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "section": 3,
+        "title": "Advanced Visualizations",
+        "lessons": [
+          {
+            "id": 5,
+            "title": "Geographic Maps",
+            "duration": "40 min",
+            "type": "video"
+          },
+          {
+            "id": 6,
+            "title": "Animated Dashboard Project",
+            "duration": "90 min",
+            "type": "project"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "title": "Prompt Engineering for AI & ChatGPT",
+    "instructor": "Natalie Obi",
+    "duration": "8 hours",
+    "rating": 4.5,
+    "students": 41000,
+    "price": 11.99,
+    "level": "Beginner",
+    "description": "Learn to write effective prompts for ChatGPT, Claude, Midjourney and other AI tools for productivity.",
+    "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=750&h=422&fit=crop&auto=format",
+    "category": "AI / ML",
+    "tags": [
+      "Prompt Engineering",
+      "ChatGPT",
+      "AI Tools",
+      "Productivity",
+      "Midjourney"
+    ],
+    "curriculum": [
+      {
+        "section": 1,
+        "title": "Prompt Basics",
+        "lessons": [
+          {
+            "id": 1,
+            "title": "How LLMs Work",
+            "duration": "20 min",
+            "type": "video"
+          },
+          {
+            "id": 2,
+            "title": "Zero-Shot & Few-Shot Prompts",
+            "duration": "20 min",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "section": 2,
+        "title": "Advanced Techniques",
+        "lessons": [
+          {
+            "id": 3,
+            "title": "Chain of Thought Prompting",
+            "duration": "25 min",
+            "type": "video"
+          },
+          {
+            "id": 4,
+            "title": "Role Prompting",
+            "duration": "20 min",
+            "type": "video"
+          },
+          {
+            "id": 5,
+            "title": "Prompt Automation with API",
+            "duration": "30 min",
+            "type": "video"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "title": "Kubernetes for Absolute Beginners",
+    "instructor": "Vijay Sharma",
+    "duration": "18 hours",
+    "rating": 4.7,
+    "students": 66000,
+    "price": 20.99,
+    "level": "Beginner",
+    "description": "Learn Kubernetes from scratch \u2014 pods, services, deployments, Helm, and manage clusters on GKE.",
+    "image": "https://images.unsplash.com/photo-1605745341112-85968b19335b?w=750&h=422&fit=crop&auto=format",
+    "category": "DevOps",
+    "tags": [
+      "Kubernetes",
+      "Docker",
+      "GKE",
+      "Helm",
+      "Microservices"
+    ],
+    "curriculum": [
+      {
+        "section": 1,
+        "title": "K8s Basics",
+        "lessons": [
+          {
+            "id": 1,
+            "title": "Why Kubernetes?",
+            "duration": "15 min",
+            "type": "video"
+          },
+          {
+            "id": 2,
+            "title": "Pods & Namespaces",
+            "duration": "25 min",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "section": 2,
+        "title": "Workloads",
+        "lessons": [
+          {
+            "id": 3,
+            "title": "Deployments & ReplicaSets",
+            "duration": "30 min",
+            "type": "video"
+          },
+          {
+            "id": 4,
+            "title": "Services & Ingress",
+            "duration": "35 min",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "section": 3,
+        "title": "Production K8s",
+        "lessons": [
+          {
+            "id": 5,
+            "title": "ConfigMaps & Secrets",
+            "duration": "25 min",
+            "type": "video"
+          },
+          {
+            "id": 6,
+            "title": "Monitoring with Prometheus",
+            "duration": "35 min",
+            "type": "video"
+          },
+          {
+            "id": 7,
+            "title": "Deploy Microservices App",
+            "duration": "90 min",
+            "type": "project"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "title": "English Grammar & Writing Mastery",
+    "instructor": "Helen Wright",
+    "duration": "12 hours",
+    "rating": 4.6,
+    "students": 58000,
+    "price": 11.99,
+    "level": "Beginner",
+    "description": "Improve your English grammar, sentence structure, essay writing, and communication skills.",
+    "image": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=750&h=422&fit=crop&auto=format",
+    "category": "Language",
+    "tags": [
+      "English",
+      "Grammar",
+      "Writing",
+      "Communication",
+      "Essay"
+    ],
+    "curriculum": [
+      {
+        "section": 1,
+        "title": "Grammar Fundamentals",
+        "lessons": [
+          {
+            "id": 1,
+            "title": "Parts of Speech",
+            "duration": "20 min",
+            "type": "video"
+          },
+          {
+            "id": 2,
+            "title": "Tenses & Verb Forms",
+            "duration": "25 min",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "section": 2,
+        "title": "Writing Skills",
+        "lessons": [
+          {
+            "id": 3,
+            "title": "Paragraph Structure",
+            "duration": "20 min",
+            "type": "video"
+          },
+          {
+            "id": 4,
+            "title": "Essay Writing",
+            "duration": "30 min",
+            "type": "video"
+          },
+          {
+            "id": 5,
+            "title": "Professional Email Writing",
+            "duration": "20 min",
+            "type": "video"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "title": "Power BI: Complete Data Analytics Course",
+    "instructor": "Raj Patel",
+    "duration": "16 hours",
+    "rating": 4.7,
+    "students": 72000,
+    "price": 18.99,
+    "level": "Beginner",
+    "description": "Build professional dashboards and reports using Microsoft Power BI, DAX and Power Query.",
+    "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=750&h=422&fit=crop&auto=format",
+    "category": "Data Science",
+    "tags": [
+      "Power BI",
+      "DAX",
+      "Power Query",
+      "Dashboards",
+      "Data Analytics"
+    ],
+    "curriculum": [
+      {
+        "section": 1,
+        "title": "Power BI Basics",
+        "lessons": [
+          {
+            "id": 1,
+            "title": "Connecting Data Sources",
+            "duration": "20 min",
+            "type": "video"
+          },
+          {
+            "id": 2,
+            "title": "Data Modeling",
+            "duration": "30 min",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "section": 2,
+        "title": "Visualizations",
+        "lessons": [
+          {
+            "id": 3,
+            "title": "Charts & Tables",
+            "duration": "25 min",
+            "type": "video"
+          },
+          {
+            "id": 4,
+            "title": "DAX Formulas",
+            "duration": "40 min",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "section": 3,
+        "title": "Advanced Reports",
+        "lessons": [
+          {
+            "id": 5,
+            "title": "Row-Level Security",
+            "duration": "25 min",
+            "type": "video"
+          },
+          {
+            "id": 6,
+            "title": "Sales Dashboard Project",
+            "duration": "75 min",
+            "type": "project"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "title": "Terraform: Infrastructure as Code",
+    "instructor": "Bryan Cole",
+    "duration": "15 hours",
+    "rating": 4.7,
+    "students": 48000,
+    "price": 22.99,
+    "level": "Advanced",
+    "description": "Automate infrastructure provisioning on AWS, Azure and GCP using Terraform and best practices.",
+    "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=750&h=422&fit=crop&auto=format",
+    "category": "DevOps",
+    "tags": [
+      "Terraform",
+      "IaC",
+      "AWS",
+      "Azure",
+      "DevOps"
+    ],
+    "curriculum": [
+      {
+        "section": 1,
+        "title": "Terraform Basics",
+        "lessons": [
+          {
+            "id": 1,
+            "title": "HCL Syntax",
+            "duration": "25 min",
+            "type": "video"
+          },
+          {
+            "id": 2,
+            "title": "Providers & Resources",
+            "duration": "30 min",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "section": 2,
+        "title": "Advanced Terraform",
+        "lessons": [
+          {
+            "id": 3,
+            "title": "Modules",
+            "duration": "35 min",
+            "type": "video"
+          },
+          {
+            "id": 4,
+            "title": "Remote State",
+            "duration": "25 min",
+            "type": "video"
+          },
+          {
+            "id": 5,
+            "title": "Deploy AWS Infrastructure Project",
+            "duration": "90 min",
+            "type": "project"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "title": "Spring Boot & Microservices",
+    "instructor": "Lucas Oliveira",
+    "duration": "28 hours",
+    "rating": 4.6,
+    "students": 56000,
+    "price": 23.99,
+    "level": "Advanced",
+    "description": "Build production-grade microservices with Spring Boot, Docker, Kafka and Kubernetes.",
+    "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=750&h=422&fit=crop&auto=format",
+    "category": "Development",
+    "tags": [
+      "Spring Boot",
+      "Microservices",
+      "Java",
+      "Kafka",
+      "Kubernetes"
+    ],
+    "curriculum": [
+      {
+        "section": 1,
+        "title": "Microservices Architecture",
+        "lessons": [
+          {
+            "id": 1,
+            "title": "Monolith vs Microservices",
+            "duration": "20 min",
+            "type": "video"
+          },
+          {
+            "id": 2,
+            "title": "Service Discovery with Eureka",
+            "duration": "35 min",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "section": 2,
+        "title": "Communication",
+        "lessons": [
+          {
+            "id": 3,
+            "title": "REST Communication",
+            "duration": "30 min",
+            "type": "video"
+          },
+          {
+            "id": 4,
+            "title": "Kafka Event Streaming",
+            "duration": "45 min",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "section": 3,
+        "title": "Deployment",
+        "lessons": [
+          {
+            "id": 5,
+            "title": "Docker Compose Setup",
+            "duration": "35 min",
+            "type": "video"
+          },
+          {
+            "id": 6,
+            "title": "Deploy to Kubernetes",
+            "duration": "50 min",
+            "type": "video"
+          },
+          {
+            "id": 7,
+            "title": "E-Commerce Microservices Project",
+            "duration": "120 min",
+            "type": "project"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "title": "Adobe After Effects: Motion Graphics & VFX",
+    "instructor": "Tara Bishop",
+    "duration": "18 hours",
+    "rating": 4.7,
+    "students": 31000,
+    "price": 17.99,
+    "level": "Intermediate",
+    "description": "Create stunning motion graphics, visual effects, and animated videos using Adobe After Effects.",
+    "image": "https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?w=750&h=422&fit=crop&auto=format",
+    "category": "Design",
+    "tags": [
+      "After Effects",
+      "Motion Graphics",
+      "VFX",
+      "Animation",
+      "Adobe"
+    ],
+    "curriculum": [
+      {
+        "section": 1,
+        "title": "After Effects Basics",
+        "lessons": [
+          {
+            "id": 1,
+            "title": "Workspace & Compositions",
+            "duration": "20 min",
+            "type": "video"
+          },
+          {
+            "id": 2,
+            "title": "Keyframes & Easing",
+            "duration": "25 min",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "section": 2,
+        "title": "Motion Graphics",
+        "lessons": [
+          {
+            "id": 3,
+            "title": "Text Animation",
+            "duration": "30 min",
+            "type": "video"
+          },
+          {
+            "id": 4,
+            "title": "Shape Layers & Expressions",
+            "duration": "35 min",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "section": 3,
+        "title": "VFX",
+        "lessons": [
+          {
+            "id": 5,
+            "title": "Green Screen (Chroma Key)",
+            "duration": "30 min",
+            "type": "video"
+          },
+          {
+            "id": 6,
+            "title": "Particle Effects",
+            "duration": "30 min",
+            "type": "video"
+          },
+          {
+            "id": 7,
+            "title": "Brand Intro Video Project",
+            "duration": "75 min",
+            "type": "project"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "title": "React Native: Build Mobile Apps",
+    "instructor": "Hassan Ali",
+    "duration": "24 hours",
+    "rating": 4.6,
+    "students": 45000,
+    "price": 21.99,
+    "level": "Intermediate",
+    "description": "Build cross-platform mobile apps for iOS and Android using React Native with Expo and TypeScript.",
+    "image": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=750&h=422&fit=crop&auto=format",
+    "category": "Mobile Development",
+    "tags": [
+      "React Native",
+      "Expo",
+      "TypeScript",
+      "iOS",
+      "Android"
+    ],
+    "curriculum": [
+      {
+        "section": 1,
+        "title": "React Native Basics",
+        "lessons": [
+          {
+            "id": 1,
+            "title": "Core Components",
+            "duration": "25 min",
+            "type": "video"
+          },
+          {
+            "id": 2,
+            "title": "Styling & StyleSheet",
+            "duration": "25 min",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "section": 2,
+        "title": "Navigation",
+        "lessons": [
+          {
+            "id": 3,
+            "title": "Stack Navigator",
+            "duration": "30 min",
+            "type": "video"
+          },
+          {
+            "id": 4,
+            "title": "Tab Navigator",
+            "duration": "25 min",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "section": 3,
+        "title": "Native Features",
+        "lessons": [
+          {
+            "id": 5,
+            "title": "Camera & Location",
+            "duration": "35 min",
+            "type": "video"
+          },
+          {
+            "id": 6,
+            "title": "Push Notifications",
+            "duration": "30 min",
+            "type": "video"
+          },
+          {
+            "id": 7,
+            "title": "Build a Fitness Tracker App",
+            "duration": "100 min",
+            "type": "project"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "title": "Git & GitHub: Version Control Masterclass",
+    "instructor": "Ryan Ellis",
+    "duration": "9 hours",
+    "rating": 4.8,
+    "students": 95000,
+    "price": 12.99,
+    "level": "Beginner",
+    "description": "Master Git and GitHub \u2014 branching, merging, rebasing, pull requests, and CI/CD workflows.",
+    "image": "https://images.unsplash.com/photo-1556075798-4825dfaaf498?w=750&h=422&fit=crop&auto=format",
+    "category": "Development",
+    "tags": [
+      "Git",
+      "GitHub",
+      "Version Control",
+      "CI/CD",
+      "Branching"
+    ],
+    "curriculum": [
+      {
+        "section": 1,
+        "title": "Git Basics",
+        "lessons": [
+          {
+            "id": 1,
+            "title": "Init, Commit & Push",
+            "duration": "20 min",
+            "type": "video"
+          },
+          {
+            "id": 2,
+            "title": "Branching & Merging",
+            "duration": "25 min",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "section": 2,
+        "title": "GitHub Collaboration",
+        "lessons": [
+          {
+            "id": 3,
+            "title": "Pull Requests & Code Review",
+            "duration": "25 min",
+            "type": "video"
+          },
+          {
+            "id": 4,
+            "title": "GitHub Actions CI/CD",
+            "duration": "30 min",
+            "type": "video"
+          },
+          {
+            "id": 5,
+            "title": "Open Source Contribution",
+            "duration": "25 min",
+            "type": "video"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "title": "Statistics & Probability for Data Science",
+    "instructor": "Dr. Carol Lee",
+    "duration": "20 hours",
+    "rating": 4.6,
+    "students": 43000,
+    "price": 19.99,
+    "level": "Intermediate",
+    "description": "Master statistics, probability, hypothesis testing, and statistical inference for data science.",
+    "image": "https://images.unsplash.com/photo-1568585105565-e372a2c2ce64?w=750&h=422&fit=crop&auto=format",
+    "category": "Data Science",
+    "tags": [
+      "Statistics",
+      "Probability",
+      "Hypothesis Testing",
+      "Python",
+      "Data Science"
+    ],
+    "curriculum": [
+      {
+        "section": 1,
+        "title": "Descriptive Statistics",
+        "lessons": [
+          {
+            "id": 1,
+            "title": "Mean, Median & Mode",
+            "duration": "20 min",
+            "type": "video"
+          },
+          {
+            "id": 2,
+            "title": "Distributions",
+            "duration": "25 min",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "section": 2,
+        "title": "Probability",
+        "lessons": [
+          {
+            "id": 3,
+            "title": "Bayes' Theorem",
+            "duration": "30 min",
+            "type": "video"
+          },
+          {
+            "id": 4,
+            "title": "Random Variables",
+            "duration": "25 min",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "section": 3,
+        "title": "Inference",
+        "lessons": [
+          {
+            "id": 5,
+            "title": "Hypothesis Testing",
+            "duration": "35 min",
+            "type": "video"
+          },
+          {
+            "id": 6,
+            "title": "Confidence Intervals",
+            "duration": "25 min",
+            "type": "video"
+          },
+          {
+            "id": 7,
+            "title": "Stats Analysis Project",
+            "duration": "60 min",
+            "type": "project"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "title": "Leadership & Management Skills",
+    "instructor": "Daniel Frost",
+    "duration": "10 hours",
+    "rating": 4.5,
+    "students": 33000,
+    "price": 13.99,
+    "level": "Beginner",
+    "description": "Build essential leadership skills \u2014 communication, delegation, conflict resolution and team management.",
+    "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=750&h=422&fit=crop&auto=format",
+    "category": "Business",
+    "tags": [
+      "Leadership",
+      "Management",
+      "Communication",
+      "Team Building",
+      "Productivity"
+    ],
+    "curriculum": [
+      {
+        "section": 1,
+        "title": "Leadership Fundamentals",
+        "lessons": [
+          {
+            "id": 1,
+            "title": "Leadership Styles",
+            "duration": "20 min",
+            "type": "video"
+          },
+          {
+            "id": 2,
+            "title": "Emotional Intelligence",
+            "duration": "25 min",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "section": 2,
+        "title": "Team Management",
+        "lessons": [
+          {
+            "id": 3,
+            "title": "Delegation & Accountability",
+            "duration": "25 min",
+            "type": "video"
+          },
+          {
+            "id": 4,
+            "title": "Conflict Resolution",
+            "duration": "30 min",
+            "type": "video"
+          },
+          {
+            "id": 5,
+            "title": "Running Effective Meetings",
+            "duration": "20 min",
+            "type": "video"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "title": "Complete Machine Learning with TensorFlow 2",
+    "instructor": "Boris Nguyen",
+    "duration": "33 hours",
+    "rating": 4.7,
+    "students": 78000,
+    "price": 25.99,
+    "level": "Advanced",
+    "description": "Build neural networks, CNNs, RNNs, and GANs using TensorFlow 2 and Keras for real-world projects.",
+    "image": "https://images.unsplash.com/photo-1527474305487-b87b222841cc?w=750&h=422&fit=crop&auto=format",
+    "category": "AI / ML",
+    "tags": [
+      "TensorFlow",
+      "Keras",
+      "Deep Learning",
+      "CNN",
+      "RNN"
+    ],
+    "curriculum": [
+      {
+        "section": 1,
+        "title": "TensorFlow & Keras Basics",
+        "lessons": [
+          {
+            "id": 1,
+            "title": "Tensors & Computations",
+            "duration": "25 min",
+            "type": "video"
+          },
+          {
+            "id": 2,
+            "title": "Building Neural Networks",
+            "duration": "35 min",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "section": 2,
+        "title": "Computer Vision",
+        "lessons": [
+          {
+            "id": 3,
+            "title": "CNNs & Image Classification",
+            "duration": "50 min",
+            "type": "video"
+          },
+          {
+            "id": 4,
+            "title": "Transfer Learning",
+            "duration": "40 min",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "section": 3,
+        "title": "Advanced Architectures",
+        "lessons": [
+          {
+            "id": 5,
+            "title": "RNNs & LSTMs",
+            "duration": "50 min",
+            "type": "video"
+          },
+          {
+            "id": 6,
+            "title": "GANs",
+            "duration": "55 min",
+            "type": "video"
+          },
+          {
+            "id": 7,
+            "title": "Image Generation Project",
+            "duration": "120 min",
+            "type": "project"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "title": "WordPress: Build Websites Without Code",
+    "instructor": "Monica Hughes",
+    "duration": "11 hours",
+    "rating": 4.5,
+    "students": 86000,
+    "price": 12.99,
+    "level": "Beginner",
+    "description": "Build professional websites, blogs, and online stores using WordPress and Elementor \u2014 no coding needed.",
+    "image": "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=750&h=422&fit=crop&auto=format",
+    "category": "Development",
+    "tags": [
+      "WordPress",
+      "Elementor",
+      "WooCommerce",
+      "SEO",
+      "Website Builder"
+    ],
+    "curriculum": [
+      {
+        "section": 1,
+        "title": "WordPress Setup",
+        "lessons": [
+          {
+            "id": 1,
+            "title": "Hosting & Domain Setup",
+            "duration": "20 min",
+            "type": "video"
+          },
+          {
+            "id": 2,
+            "title": "Themes & Plugins",
+            "duration": "25 min",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "section": 2,
+        "title": "Elementor Page Builder",
+        "lessons": [
+          {
+            "id": 3,
+            "title": "Drag & Drop Design",
+            "duration": "30 min",
+            "type": "video"
+          },
+          {
+            "id": 4,
+            "title": "Responsive Design",
+            "duration": "25 min",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "section": 3,
+        "title": "E-Commerce & SEO",
+        "lessons": [
+          {
+            "id": 5,
+            "title": "WooCommerce Store Setup",
+            "duration": "35 min",
+            "type": "video"
+          },
+          {
+            "id": 6,
+            "title": "On-Page SEO with Yoast",
+            "duration": "25 min",
+            "type": "video"
+          },
+          {
+            "id": 7,
+            "title": "Build a Business Website Project",
+            "duration": "60 min",
+            "type": "project"
+          }
+        ]
+      }
+    ]
+  }
+]
