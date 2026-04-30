@@ -61,7 +61,7 @@ export function BannerAnimatedPhoto() {
         <ScrollVelocityRow baseVelocity={-2} direction={0} className="">
           {moreDomains.map(dom => {
             return (
-                <div className={` mx-10 bg-cover  h-[300px]`} ><h1 className="text-xl md:text-2xl  text-gray-900 font-bold">{dom.name}</h1></div>
+                <div key={dom.name} className={` mx-10 bg-cover  h-[300px]`} ><h1 className="text-xl md:text-2xl  text-gray-900 font-bold">{dom.name}</h1></div>
             )
           })}
         </ScrollVelocityRow>

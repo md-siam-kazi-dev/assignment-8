@@ -3,6 +3,7 @@ import "./globals.css";
 import NavBar from "@/component/NavBar";
 import { Roboto } from 'next/font/google';
 
+
 const roboto = Roboto({
   subsets: ['latin'],
   weight: ['400', '500', '700'], // choose what you need
@@ -32,8 +33,9 @@ export default function RootLayout({ children }) {
     >
       <body className={`min-h-full flex flex-col ${roboto.className}`}>
         <NavBar />
-        <main c>
+        <main>
           {children}
+          
         </main>
 
 

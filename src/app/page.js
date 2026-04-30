@@ -2,6 +2,8 @@
 
 import Banner from "@/component/Banner";
 import { BannerAnimatedPhoto } from "@/component/BannerAnimatedPhoto";
+import MainCourse from "@/component/MainCourse";
+
 import ScrollBasedVelocityReviewDemo from "@/component/scrollReview";
 import TopThreeCourses from "@/component/TopThreeCourses";
 import { HexagonPattern } from "@/components/ui/hexagon-pattern";
@@ -10,7 +12,9 @@ import { cn } from "@/lib/utils";
 
 
 
+
 export default function  Home() {
+  
  
   return (
     <>
@@ -28,7 +32,13 @@ export default function  Home() {
     </div>
     <TopThreeCourses />
 
+    <MainCourse />
     
+    
+
+    
+
+
     
     
     
