@@ -159,4 +159,10 @@
   html {
     @apply font-sans;
   }
+  .container-div{
+    @apply w-[95%] mx-auto max-w-[1500px];
+  }
+  .section-heading{
+    @apply text-3xl md:text-4xl lg:text-5xl font-bold;
+  }
 }

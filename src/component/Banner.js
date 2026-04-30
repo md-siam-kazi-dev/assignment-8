@@ -4,12 +4,22 @@ import { AuroraText } from "@/components/ui/aurora-text";
 import { Backlight } from "@/components/ui/backlight";
 import { HexagonPattern } from "@/components/ui/hexagon-pattern";
 import { TypingAnimation } from "@/components/ui/typing-animation";
+import { WordRotate } from "@/components/ui/word-rotate";
 import { cn } from "@/lib/utils";
+
+const websuiteHeadlines = [
+  "Build Modern Websites from Scratch 🌐",
+  "Master Full-Stack Web Development",
+  "Create Fast & Responsive Web Apps ⚡",
+  "Turn Ideas into Real Websites",
+  "Learn HTML, CSS, JavaScript & Beyond",
+  "Launch Your Web Development Career 🚀"
+];
 
 const Banner = () => {
   return (
     <div
-      className="flex justify-between relative mx-auto w-full lg:w-9/10 flex-col mt-40 lg:flex-row items-center"
+      className="flex justify-between container-div relative mx-auto   flex-col mt-40 lg:flex-row items-center"
       
     >
         
@@ -23,11 +33,15 @@ const Banner = () => {
               Online Learning Platform
             </TypingAnimation>
           </AuroraText>
+          <WordRotate
+      className="text-xl font-semibold tracking-normal text-black dark:text-white"
+      words={websuiteHeadlines}
+    />
         </h1>
       </div>
 
       {/* RIGHT SIDE */}
-      <Backlight  blur={60}  className="border rounded-2xl text-center border-gray-300 p-10">
+      <Backlight  blur={60}  className="border bg-white/10 backdrop-blur-sm rounded-2xl text-center border-gray-300 p-10">
         <h2 className="font-extrabold text-2xl md:text-3xl mb-4">
           Get 7 Days Free Trials
         </h2>

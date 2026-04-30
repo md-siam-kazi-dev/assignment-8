@@ -1,11 +1,17 @@
+
+
 import Banner from "@/component/Banner";
+import { BannerAnimatedPhoto } from "@/component/BannerAnimatedPhoto";
 import ScrollBasedVelocityReviewDemo from "@/component/scrollReview";
+import TopThreeCourses from "@/component/TopThreeCourses";
 import { HexagonPattern } from "@/components/ui/hexagon-pattern";
 import { cn } from "@/lib/utils";
 
 
 
-export default function Home() {
+
+export default function  Home() {
+ 
   return (
     <>
     <HexagonPattern radius={20}
@@ -14,7 +20,16 @@ export default function Home() {
             className={cn(
               "[mask-image:linear-gradient(to_bottom_right,white,transparent,transparent)]"
             )}></HexagonPattern>
-    <Banner />
+    <div className="w-full mt-40 banner-div">
+      <Banner />
+      <BannerAnimatedPhoto />
+     
+
+    </div>
+    <TopThreeCourses />
+
+    
+    
     
     
 
@@ -24,3 +39,5 @@ export default function Home() {
      </>
   );
 }
+
+

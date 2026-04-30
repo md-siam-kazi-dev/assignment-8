@@ -106,7 +106,7 @@ export default function ScrollBasedVelocityReviewDemo() {
   return (
     <div className="relative mt-20 flex w-full flex-col items-center justify-center overflow-hidden py-8">
 
-      <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-10 ">Our Learners Review</h1>
+      <h1 className="section-heading mb-10 ">Our Learners Review</h1>
       
       <ScrollVelocityContainer className="w-full">
         <Pointer className="absolute z-40">

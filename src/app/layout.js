@@ -32,7 +32,7 @@ export default function RootLayout({ children }) {
     >
       <body className={`min-h-full flex flex-col ${roboto.className}`}>
         <NavBar />
-        <main className="w-19/20 mx-auto max-w-[1500px]">
+        <main c>
           {children}
         </main>
 
