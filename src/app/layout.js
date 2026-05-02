@@ -2,6 +2,8 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import NavBar from "@/component/NavBar";
 import { Roboto } from 'next/font/google';
+import Footer from "@/component/Footer";
+import FooterSection from "@/component/Footer";
 
 
 const roboto = Roboto({
@@ -37,6 +39,8 @@ export default function RootLayout({ children }) {
           {children}
           
         </main>
+
+        <FooterSection />
 
 
       </body>

@@ -8,7 +8,7 @@ export function CourseTimeline({course}) {
             title:c.title,
             content:c.lessons.map(les => {
                 return (
-                   <div className="card border-gray-300 rounded-2xl shadow mb-3 card-dash bg-base-100 w-96">
+                   <div className="card w-full border-gray-300 rounded-2xl shadow mb-3 card-dash bg-base-100 w-96">
   <div className="card-body">
     <h2 className="card-title">{les.title}</h2>
     <p>Duration: <span className="text-gray-400">{les.duration}</span></p>
