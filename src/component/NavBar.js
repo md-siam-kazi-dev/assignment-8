@@ -18,7 +18,7 @@ const NavBar = () => {
         }
     })
   return (
-    <nav>
+    <nav className="w-full">
     
         <motion.header
       className="navbar header bg-base-100 px-3 md:px-5 xl:px-10 flex justify-between shadow-sm"
@@ -72,7 +72,7 @@ const NavBar = () => {
         <div>
           <div className="">
             <DiaTextReveal
-              className="text-4xl font-bold tracking-tight"
+              className="text-2xl md:text-3xl lg:text-4xl font-bold tracking-tight"
               text="SkillSphere"
               colors={["#A97CF8", "#F38CB8", "#FDCC92"]}
             />

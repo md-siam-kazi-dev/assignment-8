@@ -1,11 +1,16 @@
+
 'use client'
 
 
+import { usePathname, useSearchParams } from "next/navigation";
 import { useRouter } from "next/navigation";
+import CourseContainer from "./courseContainer";
+import { useEffect, useState } from "react";
+
 
 
 const categories = [
-  { id: 0, name: "All Courses", slug: "/" },
+  { id: 0, name: "All Courses", slug: "all" },
   { id: 1, name: "AI / ML", slug: "ai-ml" },
   { id: 2, name: "Blockchain", slug: "blockchain" },
   { id: 3, name: "Business", slug: "business" },
@@ -25,26 +30,47 @@ const categories = [
   { id: 17, name: "Photography", slug: "photography" },
 ]
 
-const MainCourse = ({children}) => {
+const MainCourse = () => {
+    const pathName = usePathname();
+    const [categoryMain,setcategoryMain] = useState('')
+    console.log(pathName)
+    
+    
     const router = useRouter();
-    const handleCat =(slug)=>{
-        
-            router.push(`/${slug}`)
-        
-    }
+    const Params = useSearchParams();
+    const categoryName = Params.get('category') || "all"
+    useEffect(() => {
+        setcategoryMain(categoryName)
+
+    },[categoryName])
+    
+   
+    const handleClick = (slug) => {
+     if(slug != 'all'){
+        router.push(`/?category=${slug}`,{scroll:false});
+     }else{
+        router.push('/',{scroll:false})
+     }
+     
+};
+  
+  
+    
+    
   return (
     <div className="container-div mt-20 text-center">
       <h1 className="section-heading mb-10">Explore Inspiring Online Courses</h1>
-      <div className="btn-container flex-wrap  flex gap-1">
+      <div className="btn-container  flex-wrap  flex gap-1">
         {categories.map((cate) => {
           return (
-            <button key={cate.id} className="btn btn-outline rounded-full border-primary  text-primary border-1" onClick={() => handleCat(cate.slug)}>
+            <button onClick={() => handleClick(cate.slug)} key={cate.id} className={`btn ${categoryName === cate.slug ? 'btn-primary text-white':'btn-outline'} $ rounded-full border-primary md:text-[16px] text-[12px] text-primary border-1`} >
               {cate.name}
             </button>
           );
         })}
       </div>
-      {children}
+      <CourseContainer category = {categoryMain}/>
+      
     </div>
   );
 };

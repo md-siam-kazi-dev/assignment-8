@@ -1,22 +1,28 @@
+'use client'
+import Link from "next/link";
+import { redirect } from "next/navigation";
+import React from "react";
 
-import React from 'react'
-
-const CourseCard = ({course}) => {
+const CourseCard = ({ course }) => {
+  
   return (
-    <div className="border  rounded-2xl shadow border-gray-300">
-       
-                <img className="rounded-tr-2xl rounded-tl-2xl" src={course.image}></img>
-                <div className="w-full  text-left flex justify-between flex-col justify-between p-5">
-                    <div className='flex-1'>
-                        <h1 className="text-xl font-bold mb-1">{course.title}</h1>
-                    <p className="text-[16px] text-gray-500 font-semibold">{course.instructor}</p>
-                    <p className="text-[16px] mb-4 font-semibold text-gray-400">Rating : {course.rating}</p>
-                    </div>
-                    <button className="btn w-full rounded-2xl btn-primary">Details</button>
-                </div>
-                
-            </div>
-  )
-}
+    <div className="card max-w-[350px] w-full mx-auto text-left border rounded-2xl border-gray-300 bg-base-100 shadow-sm">
+  <figure>
+    <img
+      src={course.image}
+      alt={course.title} />
+  </figure>
+  <div className="card-body">
+    <h2 className="card-title mb-0 text-2xl">{course.title}</h2>
+    <p className="text-gray-500 text-[16px] mb-0"><span className="text-black">Instructor : </span>{course.instructor}</p>
+    
+    <div className="card-actions items-center justify-end">
+        <p className="text-[16px]">Rating : <span className="text-gray-500">{course.rating}</span></p>
+      <Link className="btn btn-primary" href={`/${course.category_slug}/${course.slug}`}>Details</Link>
+    </div>
+  </div>
+</div>
+  );
+};
 
-export default CourseCard
+export default CourseCard;

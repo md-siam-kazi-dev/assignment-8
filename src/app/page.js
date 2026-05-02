@@ -44,8 +44,7 @@ export default function  Home() {
     
 
     <ScrollBasedVelocityReviewDemo />
-     <div className="min-h-screen">siam</div>
-      <div className="min-h-screen">siam</div>
+    
      </>
   );
 }

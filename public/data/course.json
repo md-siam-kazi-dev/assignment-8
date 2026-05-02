@@ -121,7 +121,9 @@
           }
         ]
       }
-    ]
+    ],
+    "category_slug": "development",
+    "slug": "complete-web-development-bootcamp"
   },
   {
     "id": 2,
@@ -239,7 +241,9 @@
           }
         ]
       }
-    ]
+    ],
+    "category_slug": "data-science",
+    "slug": "python-for-data-science-machine-learning"
   },
   {
     "id": 3,
@@ -339,7 +343,9 @@
           }
         ]
       }
-    ]
+    ],
+    "category_slug": "development",
+    "slug": "react-redux-complete-guide"
   },
   {
     "id": 4,
@@ -433,7 +439,9 @@
           }
         ]
       }
-    ]
+    ],
+    "category_slug": "design",
+    "slug": "ui-ux-design-masterclass"
   },
   {
     "id": 5,
@@ -534,7 +542,9 @@
           }
         ]
       }
-    ]
+    ],
+    "category_slug": "cloud-computing",
+    "slug": "aws-cloud-practitioner-solutions-architect"
   },
   {
     "id": 6,
@@ -628,7 +638,9 @@
           }
         ]
       }
-    ]
+    ],
+    "category_slug": "development",
+    "slug": "complete-node-js-developer-course"
   },
   {
     "id": 7,
@@ -716,7 +728,9 @@
           }
         ]
       }
-    ]
+    ],
+    "category_slug": "marketing",
+    "slug": "digital-marketing-masterclass"
   },
   {
     "id": 8,
@@ -816,7 +830,9 @@
           }
         ]
       }
-    ]
+    ],
+    "category_slug": "mobile-development",
+    "slug": "ios-app-development-with-swift"
   },
   {
     "id": 9,
@@ -904,7 +920,9 @@
           }
         ]
       }
-    ]
+    ],
+    "category_slug": "mobile-development",
+    "slug": "android-development-with-kotlin"
   },
   {
     "id": 10,
@@ -998,7 +1016,9 @@
           }
         ]
       }
-    ]
+    ],
+    "category_slug": "devops",
+    "slug": "docker-kubernetes-the-complete-guide"
   },
   {
     "id": 11,
@@ -1085,7 +1105,9 @@
           }
         ]
       }
-    ]
+    ],
+    "category_slug": "cybersecurity",
+    "slug": "ethical-hacking-cybersecurity"
   },
   {
     "id": 12,
@@ -1155,7 +1177,9 @@
           }
         ]
       }
-    ]
+    ],
+    "category_slug": "design",
+    "slug": "graphic-design-with-adobe-photoshop-illustrator"
   },
   {
     "id": 13,
@@ -1249,7 +1273,9 @@
           }
         ]
       }
-    ]
+    ],
+    "category_slug": "computer-science",
+    "slug": "data-structures-algorithms-in-python"
   },
   {
     "id": 14,
@@ -1343,7 +1369,9 @@
           }
         ]
       }
-    ]
+    ],
+    "category_slug": "database",
+    "slug": "sql-database-design-bootcamp"
   },
   {
     "id": 15,
@@ -1437,7 +1465,9 @@
           }
         ]
       }
-    ]
+    ],
+    "category_slug": "development",
+    "slug": "typescript-the-complete-developer-s-guide"
   },
   {
     "id": 16,
@@ -1525,7 +1555,9 @@
           }
         ]
       }
-    ]
+    ],
+    "category_slug": "data-science",
+    "slug": "machine-learning-a-z-with-python-r"
   },
   {
     "id": 17,
@@ -1607,7 +1639,9 @@
           }
         ]
       }
-    ]
+    ],
+    "category_slug": "development",
+    "slug": "vue-js-3-the-complete-guide"
   },
   {
     "id": 18,
@@ -1695,7 +1729,9 @@
           }
         ]
       }
-    ]
+    ],
+    "category_slug": "mobile-development",
+    "slug": "flutter-dart-complete-cross-platform-app-dev"
   },
   {
     "id": 19,
@@ -1789,7 +1825,9 @@
           }
         ]
       }
-    ]
+    ],
+    "category_slug": "development",
+    "slug": "django-rest-framework-build-apis-with-python"
   },
   {
     "id": 20,
@@ -1883,7 +1921,9 @@
           }
         ]
       }
-    ]
+    ],
+    "category_slug": "development",
+    "slug": "complete-java-masterclass"
   },
   {
     "id": 21,
@@ -1971,7 +2011,9 @@
           }
         ]
       }
-    ]
+    ],
+    "category_slug": "development",
+    "slug": "next-js-14-the-full-stack-framework"
   },
   {
     "id": 22,
@@ -2059,7 +2101,9 @@
           }
         ]
       }
-    ]
+    ],
+    "category_slug": "blockchain",
+    "slug": "blockchain-development-solidity"
   },
   {
     "id": 23,
@@ -2147,7 +2191,9 @@
           }
         ]
       }
-    ]
+    ],
+    "category_slug": "business",
+    "slug": "product-management-zero-to-pm"
   },
   {
     "id": 24,
@@ -2159,7 +2205,7 @@
     "price": 24.99,
     "level": "Beginner",
     "description": "Learn C++ from scratch to advanced. Covers OOP, STL, memory management, and game development.",
-    "image": "https://images.unsplash.com/photo-1515879218367-8466081efront?w=750&h=422&fit=crop&auto=format",
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=750&h=422&fit=crop&auto=format",
     "category": "Development",
     "tags": [
       "C++",
@@ -2235,7 +2281,9 @@
           }
         ]
       }
-    ]
+    ],
+    "category_slug": "development",
+    "slug": "complete-c-programming-course"
   },
   {
     "id": 25,
@@ -2317,7 +2365,9 @@
           }
         ]
       }
-    ]
+    ],
+    "category_slug": "business",
+    "slug": "microsoft-excel-from-beginner-to-advanced"
   },
   {
     "id": 26,
@@ -2411,7 +2461,9 @@
           }
         ]
       }
-    ]
+    ],
+    "category_slug": "game-development",
+    "slug": "game-development-with-unity-c"
   },
   {
     "id": 27,
@@ -2487,7 +2539,9 @@
           }
         ]
       }
-    ]
+    ],
+    "category_slug": "ai-ml",
+    "slug": "artificial-intelligence-a-z"
   },
   {
     "id": 28,
@@ -2569,7 +2623,9 @@
           }
         ]
       }
-    ]
+    ],
+    "category_slug": "design",
+    "slug": "figma-for-beginners-ui-design-course"
   },
   {
     "id": 29,
@@ -2657,7 +2713,9 @@
           }
         ]
       }
-    ]
+    ],
+    "category_slug": "finance",
+    "slug": "financial-literacy-personal-finance"
   },
   {
     "id": 30,
@@ -2739,7 +2797,9 @@
           }
         ]
       }
-    ]
+    ],
+    "category_slug": "design",
+    "slug": "3d-modeling-with-blender"
   },
   {
     "id": 31,
@@ -2803,7 +2863,9 @@
           }
         ]
       }
-    ]
+    ],
+    "category_slug": "devops",
+    "slug": "linux-command-line-shell-scripting"
   },
   {
     "id": 32,
@@ -2879,7 +2941,9 @@
           }
         ]
       }
-    ]
+    ],
+    "category_slug": "ai-ml",
+    "slug": "natural-language-processing-with-python"
   },
   {
     "id": 33,
@@ -2955,7 +3019,9 @@
           }
         ]
       }
-    ]
+    ],
+    "category_slug": "photography",
+    "slug": "photography-masterclass-complete-guide"
   },
   {
     "id": 34,
@@ -3025,7 +3091,9 @@
           }
         ]
       }
-    ]
+    ],
+    "category_slug": "development",
+    "slug": "complete-guide-to-tailwindcss"
   },
   {
     "id": 35,
@@ -3107,7 +3175,9 @@
           }
         ]
       }
-    ]
+    ],
+    "category_slug": "development",
+    "slug": "rust-programming-complete-beginner-to-pro"
   },
   {
     "id": 36,
@@ -3183,7 +3253,9 @@
           }
         ]
       }
-    ]
+    ],
+    "category_slug": "development",
+    "slug": "complete-guide-to-graphql"
   },
   {
     "id": 37,
@@ -3259,7 +3331,9 @@
           }
         ]
       }
-    ]
+    ],
+    "category_slug": "data-science",
+    "slug": "data-visualization-with-d3-js"
   },
   {
     "id": 38,
@@ -3271,7 +3345,7 @@
     "price": 11.99,
     "level": "Beginner",
     "description": "Learn to write effective prompts for ChatGPT, Claude, Midjourney and other AI tools for productivity.",
-    "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=750&h=422&fit=crop&auto=format",
+    "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=750&h=422&fit=crop&auto=format",
     "category": "AI / ML",
     "tags": [
       "Prompt Engineering",
@@ -3323,7 +3397,9 @@
           }
         ]
       }
-    ]
+    ],
+    "category_slug": "ai-ml",
+    "slug": "prompt-engineering-for-ai-chatgpt"
   },
   {
     "id": 39,
@@ -3335,7 +3411,7 @@
     "price": 20.99,
     "level": "Beginner",
     "description": "Learn Kubernetes from scratch \u2014 pods, services, deployments, Helm, and manage clusters on GKE.",
-    "image": "https://images.unsplash.com/photo-1605745341112-85968b19335b?w=750&h=422&fit=crop&auto=format",
+    "image": "https://images.unsplash.com/photo-1667372393119-3d4c48d07fc9?w=750&h=422&fit=crop&auto=format",
     "category": "DevOps",
     "tags": [
       "Kubernetes",
@@ -3405,7 +3481,9 @@
           }
         ]
       }
-    ]
+    ],
+    "category_slug": "devops",
+    "slug": "kubernetes-for-absolute-beginners"
   },
   {
     "id": 40,
@@ -3469,7 +3547,9 @@
           }
         ]
       }
-    ]
+    ],
+    "category_slug": "language",
+    "slug": "english-grammar-writing-mastery"
   },
   {
     "id": 41,
@@ -3545,7 +3625,9 @@
           }
         ]
       }
-    ]
+    ],
+    "category_slug": "data-science",
+    "slug": "power-bi-complete-data-analytics-course"
   },
   {
     "id": 42,
@@ -3609,7 +3691,9 @@
           }
         ]
       }
-    ]
+    ],
+    "category_slug": "devops",
+    "slug": "terraform-infrastructure-as-code"
   },
   {
     "id": 43,
@@ -3621,7 +3705,7 @@
     "price": 23.99,
     "level": "Advanced",
     "description": "Build production-grade microservices with Spring Boot, Docker, Kafka and Kubernetes.",
-    "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=750&h=422&fit=crop&auto=format",
+    "image": "https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=750&h=422&fit=crop&auto=format",
     "category": "Development",
     "tags": [
       "Spring Boot",
@@ -3691,7 +3775,9 @@
           }
         ]
       }
-    ]
+    ],
+    "category_slug": "development",
+    "slug": "spring-boot-microservices"
   },
   {
     "id": 44,
@@ -3773,7 +3859,9 @@
           }
         ]
       }
-    ]
+    ],
+    "category_slug": "design",
+    "slug": "adobe-after-effects-motion-graphics-vfx"
   },
   {
     "id": 45,
@@ -3785,7 +3873,7 @@
     "price": 21.99,
     "level": "Intermediate",
     "description": "Build cross-platform mobile apps for iOS and Android using React Native with Expo and TypeScript.",
-    "image": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=750&h=422&fit=crop&auto=format",
+    "image": "https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?w=750&h=422&fit=crop&auto=format",
     "category": "Mobile Development",
     "tags": [
       "React Native",
@@ -3855,7 +3943,9 @@
           }
         ]
       }
-    ]
+    ],
+    "category_slug": "mobile-development",
+    "slug": "react-native-build-mobile-apps"
   },
   {
     "id": 46,
@@ -3919,7 +4009,9 @@
           }
         ]
       }
-    ]
+    ],
+    "category_slug": "development",
+    "slug": "git-github-version-control-masterclass"
   },
   {
     "id": 47,
@@ -4001,7 +4093,9 @@
           }
         ]
       }
-    ]
+    ],
+    "category_slug": "data-science",
+    "slug": "statistics-probability-for-data-science"
   },
   {
     "id": 48,
@@ -4065,7 +4159,9 @@
           }
         ]
       }
-    ]
+    ],
+    "category_slug": "business",
+    "slug": "leadership-management-skills"
   },
   {
     "id": 49,
@@ -4147,7 +4243,9 @@
           }
         ]
       }
-    ]
+    ],
+    "category_slug": "ai-ml",
+    "slug": "complete-machine-learning-with-tensorflow-2"
   },
   {
     "id": 50,
@@ -4229,6 +4327,8 @@
           }
         ]
       }
-    ]
+    ],
+    "category_slug": "development",
+    "slug": "wordpress-build-websites-without-code"
   }
 ]

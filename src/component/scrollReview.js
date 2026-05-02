@@ -104,7 +104,7 @@ function ReviewCard({ img, name, username, body }) {
 
 export default function ScrollBasedVelocityReviewDemo() {
   return (
-    <div className="relative mt-20 flex w-full flex-col items-center justify-center overflow-hidden py-8">
+    <div className="relative mt-20  flex w-full flex-col items-center justify-center overflow-hidden py-8">
 
       <h1 className="section-heading mb-10 ">Our Learners Review</h1>
       
@@ -129,8 +129,8 @@ export default function ScrollBasedVelocityReviewDemo() {
 
       </ScrollVelocityContainer>
 
-      <div className="pointer-events-none absolute inset-y-0 left-0 w-1/4 bg-gradient-to-r from-background"></div>
-      <div className="pointer-events-none absolute inset-y-0 right-0 w-1/4 bg-gradient-to-l from-background"></div>
+      {/* <div className="pointer-events-none absolute inset-y-0 left-0 w-1/4 bg-gradient-to-r from-background"></div>
+      <div className="pointer-events-none absolute inset-y-0 right-0 w-1/4 bg-gradient-to-l from-background"></div> */}
     </div>
   );
 }
