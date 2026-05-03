@@ -4,10 +4,14 @@ import React from "react";
 import { motion, useScroll, useMotionValueEvent } from "motion/react";
 import { useState } from "react";
 import { ST } from "next/dist/shared/lib/utils";
+import { useSession } from "@/lib/auth-client";
+import { redirect } from "next/navigation";
 
 const NavBar = () => {
+
   const { scrollY } = useScroll()
     const [hidden, setHidden] = useState(false)
+
 
     useMotionValueEvent(scrollY, "change", (current) => {
         const previous = scrollY.getPrevious() ?? 0
@@ -17,6 +21,10 @@ const NavBar = () => {
             setHidden(false)
         }
     })
+
+    const handleNavBTn = (slug) =>{
+      redirect(`/${slug}`)
+    }
   return (
     <nav className="w-full">
     
@@ -55,7 +63,7 @@ const NavBar = () => {
             </div>
             <ul
               tabIndex="-1"
-              className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
+              className="menu menu-sm dropdown-content text-black bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
             >
               <li>
                 <a>Home</a>
@@ -99,10 +107,10 @@ const NavBar = () => {
         />
 
         <div className="login-signin">
-          <button className="btn border-none hover:bg-transparent shadow-none">
+          <button onClick={() => handleNavBTn('login')} className="btn border-none hover:bg-transparent shadow-none">
             Log In
           </button>
-          <button className="btn btn-primary">Sign Up</button>
+          <button className="btn btn-primary" onClick={() => handleNavBTn('signup')}>Sign Up</button>
         </div>
         {/* <div className="dropdown dropdown-end">
       <div tabIndex={0} role="button" className="btn btn-ghost btn-circle avatar">
