@@ -6,6 +6,9 @@ import { usePathname, useSearchParams } from "next/navigation";
 import { useRouter } from "next/navigation";
 import CourseContainer from "./courseContainer";
 import { useEffect, useState } from "react";
+import { Button } from "@/components/ui/button"
+import { Field } from "@/components/ui/field"
+import { Input } from "@/components/ui/input"
 
 
 
@@ -31,28 +34,56 @@ const categories = [
 ]
 
 const MainCourse = () => {
+    const [searchInput,setSearchInput] = useState('');
+    const [searchText,setSearchText] = useState('');
+    
     const pathName = usePathname();
     const [categoryMain,setcategoryMain] = useState('')
+
     console.log(pathName)
     
     
     const router = useRouter();
     const Params = useSearchParams();
-    const categoryName = Params.get('category') || "all"
-    useEffect(() => {
-        setcategoryMain(categoryName)
+    const categoryName = Params.get('category') || "all";
 
-    },[categoryName])
+
+    const handleInput = (e) => {
+       setSearchText(e.target.value);
+
+    }
+    const handleSearch = () => {
+       setSearchText(searchText.toLowerCase().trim());
+       router.push('/',{scroll:false})
+
+       setSearchInput(searchText);
+       setcategoryMain('all');
+
+       
+       
+    }
+    
     
    
     const handleClick = (slug) => {
+         setSearchInput('')
+         setSearchText('');
      if(slug != 'all'){
         router.push(`/?category=${slug}`,{scroll:false});
+        setcategoryMain(slug)
      }else{
-        router.push('/',{scroll:false})
+        router.push('/',{scroll:false});
+        setcategoryMain('all')
      }
      
+     
+     
 };
+
+useEffect(() => {
+        setcategoryMain(categoryName);
+     },[categoryMain,categoryName])
+
   
   
     
@@ -69,7 +100,15 @@ const MainCourse = () => {
           );
         })}
       </div>
-      <CourseContainer category = {categoryMain}/>
+
+
+      <Field orientation="horizontal" className='w-full border rounded-full p-2 shadow mx-auto mt-5 mb-5 md:w-7/10 lg:w-5/10 xl:w-4/10'>
+      <Input type="search" value={searchText} placeholder="Search Course" onChange= {(e) => handleInput(e)} />
+      <Button onClick={handleSearch}>Search</Button>
+    </Field>
+
+
+      <CourseContainer category = {categoryMain} searchInput={searchInput} setSearchInput={setSearchInput}/>
       
     </div>
   );

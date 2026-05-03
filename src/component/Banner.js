@@ -19,7 +19,7 @@ const websuiteHeadlines = [
 const Banner = () => {
   return (
     <div
-      className="flex justify-between container-div relative mx-auto   flex-col mt-40 lg:flex-row items-center"
+      className="flex justify-between container-div relative mx-auto lg:w-[70%]  flex-col mt-40 lg:flex-row items-center"
       
     >
         
@@ -41,7 +41,7 @@ const Banner = () => {
       </div>
 
       {/* RIGHT SIDE */}
-      <Backlight  blur={60}  className="border bg-white/10 backdrop-blur-sm rounded-2xl text-center border-gray-300 p-10">
+      <Backlight  blur={60}  className="border mt-10 lg:mt-0 bg-white/10 backdrop-blur-sm rounded-2xl text-center border-gray-300 p-10">
         <h2 className="font-extrabold text-2xl md:text-3xl mb-4">
           Get 7 Days Free Trials
         </h2>
