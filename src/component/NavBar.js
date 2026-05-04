@@ -6,8 +6,12 @@ import { useState } from "react";
 import { ST } from "next/dist/shared/lib/utils";
 import { useSession } from "@/lib/auth-client";
 import { redirect } from "next/navigation";
+import { CircleUserRound } from "lucide-react";
+import Link from "next/link";
 
 const NavBar = () => {
+  const session = useSession()
+  console.log(session)
 
   const { scrollY } = useScroll()
     const [hidden, setHidden] = useState(false)
@@ -29,7 +33,7 @@ const NavBar = () => {
     <nav className="w-full">
     
         <motion.header
-      className="navbar header bg-base-100 px-3 md:px-5 xl:px-10 flex justify-between shadow-sm"
+      className="navbar header  px-3 md:px-5xl:px-10 flex justify-between"
 
       animate={{
         y: hidden ? -140 : 0,
@@ -63,17 +67,28 @@ const NavBar = () => {
             </div>
             <ul
               tabIndex="-1"
-              className="menu menu-sm dropdown-content text-black bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
+              className="menu menu-sm dropdown-content text-black rounded-box z-1 mt-3 w-52 p-2 shadow"
             >
-              <li>
-                <a>Home</a>
-              </li>
-              <li>
-                <a>Courses</a>
-              </li>
-              <li>
-                <a>My Profile</a>
-              </li>
+               <button
+   
+    className="font-semibold text-gray-800 hover:text-red-500 transition"
+  >
+    Home
+  </button>
+
+  <button
+  
+    className="font-semibold text-gray-800 hover:text-red-500 transition"
+  >
+    Courses
+  </button>
+
+  <button
+    
+    className="font-semibold text-gray-800 hover:text-red-500 transition"
+  >
+    My Profile
+  </button>
             </ul>
           </div>
         </div>
@@ -88,17 +103,28 @@ const NavBar = () => {
         </div>
       </div>
 
-      <div className="center hidden lg:flex  justify-between gap-4">
-        <a className="font-semibold hover:text-red-400 transition-colors">
-          Home
-        </a>
-        <a className="font-semibold hover:text-red-400 transition-colors">
-          Courses
-        </a>
-        <a className="font-semibold hover:text-red-400 transition-colors">
-          My Profile
-        </a>
-      </div>
+     <div className="hidden lg:flex items-center gap-6">
+  <button
+   
+    className="font-semibold text-gray-800 hover:text-red-500 transition"
+  >
+    Home
+  </button>
+
+  <button
+  
+    className="font-semibold text-gray-800 hover:text-red-500 transition"
+  >
+    Courses
+  </button>
+
+  <button
+    
+    className="font-semibold text-gray-800 hover:text-red-500 transition"
+  >
+    My Profile
+  </button>
+</div>
       <div className="flex gap-8">
         <input
           type="text"
@@ -106,12 +132,14 @@ const NavBar = () => {
           className="input hidden lg:block border outline-none input-bordered w-24 md:w-auto"
         />
 
-        <div className="login-signin">
+        {session.data === null ? <div className="login-signin">
           <button onClick={() => handleNavBTn('login')} className="btn border-none hover:bg-transparent shadow-none">
             Log In
           </button>
           <button className="btn btn-primary" onClick={() => handleNavBTn('signup')}>Sign Up</button>
-        </div>
+        </div>:<Link href='/profile' className="flex text-black bg-blue-500 rounded-2xl p-2 justify-center items-center"><CircleUserRound />{session.data.user.name} </Link> }
+
+        
         {/* <div className="dropdown dropdown-end">
       <div tabIndex={0} role="button" className="btn btn-ghost btn-circle avatar">
         <div className="w-10 rounded-full">
