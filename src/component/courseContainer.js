@@ -1,4 +1,5 @@
 "use client";
+export const dynamic = 'force-dynamic';
 import fetchData from "@/lib/fetchData";
 import { usePathname, useSearchParams } from "next/navigation";
 import React, { useEffect, useState } from "react";
