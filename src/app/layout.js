@@ -1,3 +1,4 @@
+
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import NavBar from "@/component/NavBar";
@@ -6,6 +7,7 @@ import Footer from "@/component/Footer";
 import FooterSection from "@/component/Footer";
 import ScrollBasedVelocityReviewDemo from "@/component/scrollReview";
 import { ToastContainer } from "react-toastify";
+import Modal from "@/component/Modal";
 
 
 const roboto = Roboto({
@@ -30,6 +32,9 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
+  const Avatar = async () => {
+    console.log('d')
+  }
   return (
     <html
       lang="en"
@@ -49,7 +54,7 @@ export default function RootLayout({ children }) {
           position="top-right"
           autoClose={3000}
         />
-
+        <Modal />
 
       </body>
     </html>

@@ -11,7 +11,9 @@ import { HexagonPattern } from "@/components/ui/hexagon-pattern";
 import { cn } from "@/lib/utils";
 
 
-
+export const metadata = {
+  title: "Home | SkillSphere",
+};
 
 
 export default function  Home() {

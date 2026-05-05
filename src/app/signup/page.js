@@ -188,7 +188,7 @@ export default function SkillsphereSignup() {
           <span className="text-[#8b949e] text-sm">
             Already have an account?
           </span>{" "}
-          <a href="#" className="text-[#58a6ff] text-sm hover:underline font-medium">
+          <a href="/login" className="text-[#58a6ff] text-sm hover:underline font-medium">
             Sign in
           </a>
         </div>
