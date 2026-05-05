@@ -1,6 +1,8 @@
 'use client'
 
+import { signIn } from "@/lib/auth-client";
 import { useState } from "react";
+import { toast } from "react-toastify";
 
 
 
@@ -12,27 +14,39 @@ export default function SkillsphereLogin() {
   const [showPass, setShowPass] = useState(false);
   const [loading, setLoading] = useState(false);
 
-  const handleSubmit = (e) => {
+  const singInFunc =async (e) => {
     e.preventDefault();
-    setLoading(true);
-    setTimeout(() => setLoading(false), 1800);
-  };
+    const { data, error } = await signIn.email({
+    email: email, // required
+    password: password, // required
+    rememberMe: true,
+    callbackURL: "/",
+  });
+
+    if(error){
+      toast.error(error.message);
+    }else{
+      toast.success('Login Successfull')
+    }
+  }
+
+
 
   return (
     <div className="min-h-screen bg-white flex flex-col items-center justify-center px-4 font-mono">
-      {/* Subtle grid background */}
+     
      
      
     
 
-      {/* Card */}
+
       <div className="w-full max-w-sm z-10">
         <div className="bg-white border  rounded-lg p-6 shadow-xl ">
           <h2 className=" text-lg font-semibold mb-5 text-center">
             Sign in to your account
           </h2>
 
-          {/* Google Login */}
+
           <button
             type="button"
             className="w-full flex items-center justify-center gap-3 border border-[#30363d] hover:border-[#8b949e] text-sm font-medium py-2.5 px-4 rounded-md transition-all duration-150 mb-5 group"
@@ -41,16 +55,15 @@ export default function SkillsphereLogin() {
             <span>Continue with Google</span>
           </button>
 
-          {/* Divider */}
           <div className="flex items-center gap-3 mb-5">
             <div className="flex-1 h-px bg-[#30363d]" />
             <span className=" text-xs">or sign in with email</span>
             <div className="flex-1 h-px bg-[#30363d]" />
           </div>
 
-          {/* Form */}
-          <form onSubmit={handleSubmit} className="space-y-4">
-            {/* Email */}
+   
+          <form onSubmit={singInFunc} className="space-y-4">
+     
             <div>
               <label className="block  text-sm font-medium mb-1.5">
                 Email address
@@ -61,11 +74,11 @@ export default function SkillsphereLogin() {
                 onChange={(e) => setEmail(e.target.value)}
                 placeholder="you@example.com"
                 required
-                className="w-full bg-[#0d1117] border border-[#30363d] focus:border-[#58a6ff] focus:ring-1 focus:ring-[#58a6ff]  placeholder-[#484f58] text-sm rounded-md px-3 py-2 outline-none transition-all duration-150"
+                className="w-full  border border-[#30363d] focus:border-[#58a6ff] focus:ring-1 focus:ring-[#58a6ff]  placeholder-[#484f58] text-sm rounded-md px-3 py-2 transition-all duration-150"
               />
             </div>
 
-            {/* Password */}
+
             <div>
               <div className="flex items-center justify-between mb-1.5">
                 <label className=" text-sm font-medium">Password</label>
@@ -80,7 +93,7 @@ export default function SkillsphereLogin() {
                   onChange={(e) => setPassword(e.target.value)}
                   placeholder="••••••••"
                   required
-                  className="w-full bg-[#0d1117] border border-[#30363d] focus:border-[#58a6ff] focus:ring-1 focus:ring-[#58a6ff]  placeholder-[#484f58] text-sm rounded-md px-3 py-2 pr-10 outline-none transition-all duration-150"
+                  className="w-full  border border-[#30363d] focus:border-[#58a6ff] focus:ring-1 focus:ring-[#58a6ff]  placeholder-[#484f58] text-sm rounded-md px-3 py-2 pr-10 transition-all duration-150"
                 />
                 <button
                   type="button"
@@ -101,7 +114,7 @@ export default function SkillsphereLogin() {
               </div>
             </div>
 
-            {/* Submit */}
+
             <button
               type="submit"
               disabled={loading}
@@ -122,15 +135,15 @@ export default function SkillsphereLogin() {
           </form>
         </div>
 
-        {/* Sign up link */}
+
         <div className="mt-4 text-center border border-[#30363d] rounded-lg py-3.5 bg-[#161b22]">
           <span className="text-[#8b949e] text-sm">New to Skillsphere? </span>
-          <a href="#" className="text-[#58a6ff] text-sm hover:underline font-medium">
+          <a href="/signup" className="text-[#58a6ff] text-sm hover:underline font-medium">
             Create an account
           </a>
         </div>
 
-        {/* Footer */}
+
         <p className="text-center text-[#484f58] text-xs mt-6">
           © 2026 Skillsphere, Inc. &nbsp;·&nbsp;
           <a href="#" className="hover:text-[#8b949e] transition-colors">Terms</a>

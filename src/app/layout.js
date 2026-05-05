@@ -5,6 +5,7 @@ import { Roboto } from 'next/font/google';
 import Footer from "@/component/Footer";
 import FooterSection from "@/component/Footer";
 import ScrollBasedVelocityReviewDemo from "@/component/scrollReview";
+import { ToastContainer } from "react-toastify";
 
 
 const roboto = Roboto({
@@ -44,6 +45,10 @@ export default function RootLayout({ children }) {
         <ScrollBasedVelocityReviewDemo />
 
         <FooterSection />
+        <ToastContainer 
+          position="top-right"
+          autoClose={3000}
+        />
 
 
       </body>

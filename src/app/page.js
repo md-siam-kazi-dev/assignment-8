@@ -5,6 +5,7 @@ import { BannerAnimatedPhoto } from "@/component/BannerAnimatedPhoto";
 import MainCourse from "@/component/MainCourse";
 
 import ScrollBasedVelocityReviewDemo from "@/component/scrollReview";
+import TopTeacher from "@/component/TopTeacher";
 import TopThreeCourses from "@/component/TopThreeCourses";
 import { HexagonPattern } from "@/components/ui/hexagon-pattern";
 import { cn } from "@/lib/utils";
@@ -31,6 +32,7 @@ export default function  Home() {
 
     </div>
     <TopThreeCourses />
+    <TopTeacher />
 
     <MainCourse />
     

@@ -1,4 +1,4 @@
-'use client';
+"use client";
 
 import Image from "next/image";
 import { cn } from "@/lib/utils"; // make sure this exists
@@ -7,8 +7,9 @@ import {
   ScrollVelocityRow,
 } from "@/components/ui/scroll-based-velocity";
 import { Pointer } from "@/components/ui/pointer";
+import { usePathname } from "next/navigation";
 
-const review  = [
+const review = [
   {
     name: "Ayan Rahman",
     username: "@ayan",
@@ -71,43 +72,51 @@ const review  = [
   },
 ];
 
-
-
 function ReviewCard({ img, name, username, body }) {
-  return (
-    <div
-      className={cn(
-        "relative h-full w-auto overflow-hidden h-35 mr-2 ml-2 rounded-xl border p-4",
-        // light styles
-        "border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]",
-        // dark styles
-        "dark:border-gray-50/[.1] dark:bg-gray-50/[.10]  dark:hover:bg-gray-50/[.15]"
-      )}
-    >
-      
-      <div className="flex flex-row items-center gap-2">
-        <img className="rounded-full" width="32" height="32" alt="" src={img} />
-        <div className="flex flex-col">
-          <figcaption className="text-sm font-medium dark:text-white">
-            {name}
-          </figcaption>
-          <p className="text-xs font-medium dark:text-white/40">{username}</p>
-        </div>
-      </div>
-     <p className="mt-3 text-sm max-w-xs whitespace-normal break-words">
-  {body}
-</p>
+ 
 
-    </div>
+  return (
+    
+      
+
+      <div
+        className={cn(
+          `relative h-full   w-auto overflow-hidden h-35 mr-2 ml-2 rounded-xl border p-4`,
+          // light styles
+          "border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]",
+          // dark styles
+          "dark:border-gray-50/[.1] dark:bg-gray-50/[.10]  dark:hover:bg-gray-50/[.15]",
+        )}
+      >
+        <div className="flex flex-row items-center gap-2">
+          <img
+            className="rounded-full"
+            width="32"
+            height="32"
+            alt=""
+            src={img}
+          />
+          <div className="flex flex-col">
+            <figcaption className="text-sm font-medium dark:text-white">
+              {name}
+            </figcaption>
+            <p className="text-xs font-medium dark:text-white/40">{username}</p>
+          </div>
+        </div>
+        <p className="mt-3 text-sm max-w-xs whitespace-normal break-words">
+          {body}
+        </p>
+      </div>
+   
   );
 }
 
 export default function ScrollBasedVelocityReviewDemo() {
+   const pathName = usePathname();
   return (
-    <div className="relative mt-20  flex w-full flex-col items-center justify-center overflow-hidden py-8">
+    <div className={`relative mt-20  flex w-full flex-col items-center justify-center overflow-hidden py-8 ${pathName === "/signup" || pathName === "/login" ? "hidden" : "block"}`}>
+      <h1 className={` section-heading mb-10 `}>Our Learners Review</h1>
 
-      <h1 className="section-heading mb-10 ">Our Learners Review</h1>
-      
       <ScrollVelocityContainer className="w-full">
         <Pointer className="absolute z-40">
           <div className="text-2xl ">👆</div>
@@ -121,12 +130,15 @@ export default function ScrollBasedVelocityReviewDemo() {
         </ScrollVelocityRow>
 
         {/* Row B */}
-        <ScrollVelocityRow baseVelocity={2} direction={-1} className="py-4 flex gap-2">
+        <ScrollVelocityRow
+          baseVelocity={2}
+          direction={-1}
+          className="py-4 flex gap-2"
+        >
           {review.map((item, idx) => (
             <ReviewCard key={idx} {...item} />
           ))}
         </ScrollVelocityRow>
-
       </ScrollVelocityContainer>
 
       {/* <div className="pointer-events-none absolute inset-y-0 left-0 w-1/4 bg-gradient-to-r from-background"></div>

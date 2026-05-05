@@ -17,7 +17,7 @@ const CourseCard = ({ course }) => {
     <p className="text-gray-500 text-[16px] mb-0"><span className="text-black">Instructor : </span>{course.instructor}</p>
     
     <div className="card-actions items-center justify-end">
-        <p className="text-[16px]">Rating : <span className="text-gray-500">{course.rating}</span></p>
+        <p className="text-[16px]">⭐ <span className="text-gray-500">{course.rating}</span></p>
       <Link className="btn btn-primary" href={`/${course.category_slug}/${course.slug}`}>Details</Link>
     </div>
   </div>

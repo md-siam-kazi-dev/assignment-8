@@ -78,7 +78,7 @@ export default function SkillsphereSignup() {
                 onChange={(e) => setName(e.target.value)}
                 required
                 placeholder="John Doe"
-                className="w-full  border border-[#30363d]   text-sm rounded-md px-3 py-2 outline-none"
+                className="w-full  border border-[#30363d]   text-sm rounded-md px-3 py-2 "
               />
             </div>
 
@@ -106,7 +106,7 @@ export default function SkillsphereSignup() {
                 onChange={(e) => setImg(e.target.value)}
                 required
                 placeholder="Your Image Link"
-                className="w-full  border border-[#30363d] text-sm rounded-md px-3 py-2 outline-none"
+                className="w-full  border border-[#30363d] text-sm rounded-md px-3 py-2 "
               />
             </div>
 
@@ -122,7 +122,7 @@ export default function SkillsphereSignup() {
                   onChange={(e) => setPassword(e.target.value)}
                   required
                   placeholder="••••••••"
-                  className="w-full  border border-[#30363d] text-sm rounded-md px-3 py-2 pr-10 outline-none"
+                  className="w-full  border border-[#30363d] text-sm rounded-md px-3 py-2 pr-10 "
                 />
                 <button
                   type="button"

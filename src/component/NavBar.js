@@ -4,17 +4,27 @@ import React from "react";
 import { motion, useScroll, useMotionValueEvent } from "motion/react";
 import { useState } from "react";
 import { ST } from "next/dist/shared/lib/utils";
-import { useSession } from "@/lib/auth-client";
-import { redirect } from "next/navigation";
+import { signOut, useSession } from "@/lib/auth-client";
+import { redirect, RedirectType } from "next/navigation";
 import { CircleUserRound } from "lucide-react";
 import Link from "next/link";
 
 const NavBar = () => {
-  const session = useSession()
-  console.log(session)
+  const { data,isPending} = useSession()
+  console.log(isPending)
+  
+
+  const user = data?.user;
+  
+
+  console.log(user)
 
   const { scrollY } = useScroll()
     const [hidden, setHidden] = useState(false)
+
+    const signOutFunc = () => {
+      signOut();
+    }
 
 
     useMotionValueEvent(scrollY, "change", (current) => {
@@ -43,7 +53,7 @@ const NavBar = () => {
     >
       <div className="flex ">
         <div className="navbar-start lg:hidden">
-          <div className="dropdown">
+          <div className="dropdown ">
             <div
               tabIndex={0}
               role="button"
@@ -65,36 +75,54 @@ const NavBar = () => {
                 />{" "}
               </svg>
             </div>
-            <ul
-              tabIndex="-1"
-              className="menu menu-sm dropdown-content text-black rounded-box z-1 mt-3 w-52 p-2 shadow"
-            >
-               <button
-   
-    className="font-semibold text-gray-800 hover:text-red-500 transition"
-  >
-    Home
-  </button>
+           <ul
+  tabIndex={0}
+  className="menu menu-sm dropdown-content bg-base-100 text-black rounded-box z-50 bg-primary mt-3 w-52 p-2 shadow"
+>
+  <li>
+    <Link href="/" className="font-semibold text-black
+     hover:text-red-500 transition">
+      Home
+    </Link>
+  </li>
+  <li>
+    <Link href="/profile" className="font-semibold text-gray-800 hover:text-red-500 transition">
+      My Profile
+    </Link>
+  </li>
 
-  <button
-  
-    className="font-semibold text-gray-800 hover:text-red-500 transition"
-  >
-    Courses
-  </button>
+  {/* Auth buttons inside dropdown too */}
+  {!user && !isPending && (
+    <>
+      <li>
+        <Link href="/login" className="font-semibold text-gray-800 hover:text-red-500 transition">
+          Log In
+        </Link>
+      </li>
+      <li>
+        <Link href="/signup" className="font-semibold text-gray-800 hover:text-red-500 transition">
+          Sign Up
+        </Link>
+      </li>
+    </>
+  )}
 
-  <button
-    
-    className="font-semibold text-gray-800 hover:text-red-500 transition"
-  >
-    My Profile
-  </button>
-            </ul>
+  {user && (
+    <li>
+      <button
+        onClick={signOutFunc}
+        className="font-semibold text-red-500 hover:text-red-700 transition"
+      >
+        Sign Out
+      </button>
+    </li>
+  )}
+</ul>
           </div>
         </div>
         <div>
           <div className="">
-            <DiaTextReveal
+            <DiaTextReveal onClick={() => redirect('/')}
               className="text-2xl md:text-3xl lg:text-4xl font-bold tracking-tight"
               text="SkillSphere"
               colors={["#A97CF8", "#F38CB8", "#FDCC92"]}
@@ -104,21 +132,16 @@ const NavBar = () => {
       </div>
 
      <div className="hidden lg:flex items-center gap-6">
-  <button
+  <button onClick={() => redirect('/')}
    
     className="font-semibold text-gray-800 hover:text-red-500 transition"
   >
     Home
   </button>
 
-  <button
   
-    className="font-semibold text-gray-800 hover:text-red-500 transition"
-  >
-    Courses
-  </button>
 
-  <button
+  <button onClick={() => redirect('/profile')}
     
     className="font-semibold text-gray-800 hover:text-red-500 transition"
   >
@@ -126,18 +149,14 @@ const NavBar = () => {
   </button>
 </div>
       <div className="flex gap-8">
-        <input
-          type="text"
-          placeholder="Search courses"
-          className="input hidden lg:block border outline-none input-bordered w-24 md:w-auto"
-        />
+        
 
-        {session.data === null ? <div className="login-signin">
+        {!user? (!isPending ? <div className="login-signin">
           <button onClick={() => handleNavBTn('login')} className="btn border-none hover:bg-transparent shadow-none">
             Log In
           </button>
           <button className="btn btn-primary" onClick={() => handleNavBTn('signup')}>Sign Up</button>
-        </div>:<Link href='/profile' className="flex text-black bg-blue-500 rounded-2xl p-2 justify-center items-center"><CircleUserRound />{session.data.user.name} </Link> }
+        </div> :<div className="w-30 h-10 rounded-2xl bg-gray-100"></div>):<><Link href='/profile' className="flex text-black rounded-2xl p-2 justify-center items-center"> <img className="w-8 rounded-full h-8" src={user.image || '/6596121.png'} fal></img></Link> <button onClick={signOutFunc} className="btn btn-primary  hidden md:block" >Sign Out</button></>}
 
         
         {/* <div className="dropdown dropdown-end">

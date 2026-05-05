@@ -27,7 +27,7 @@ export function TopThree({course}) {
       <CarouselPrevious />
       <CarouselNext />
     </Carousel> */}
-    <div className="w-8/10 mx-auto hidden lg:grid grid-cols-3 gap-6  justify-center">
+    <div className="w-8/10 mx-auto grid grid-cols-1 lg:grid-cols-3 gap-6  ">
         {course.map((c,index) => (
             <CourseCard key={index} course={c} />
 ))}

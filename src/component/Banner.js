@@ -5,7 +5,10 @@ import { Backlight } from "@/components/ui/backlight";
 import { HexagonPattern } from "@/components/ui/hexagon-pattern";
 import { TypingAnimation } from "@/components/ui/typing-animation";
 import { WordRotate } from "@/components/ui/word-rotate";
+import { useSession } from "@/lib/auth-client";
 import { cn } from "@/lib/utils";
+import { DotLottieReact } from "@lottiefiles/dotlottie-react";
+import Lottie from "lottie-react";
 import Link from "next/link";
 
 const websuiteHeadlines = [
@@ -18,18 +21,21 @@ const websuiteHeadlines = [
 ];
 
 const Banner = () => {
+  const {data,isPending} = useSession();
+  console.log(data)
+  const user = data?.user;
   return (
     <div
-      className="flex justify-between container-div relative mx-auto lg:w-[70%]  flex-col mt-40 lg:flex-row items-center"
+      className="flex justify-between container-div relative mx-auto  flex-col mt-40 lg:flex-row items-center"
       
     >
         
       {/* LEFT SIDE */}
-      <div className="text-center lg:text-left">
+      <div className="text-center lg:text-left mb-10 lg:mb-0">
         <h1 className="text-5xl flex flex-col font-bold tracking-tighter md:text-6xl lg:text-7xl">
           SkillSphere
 
-          <AuroraText className="text-3xl md:text-4xl lg:text-4xl tracking-normal">
+          <AuroraText className="text-3xl md:text-3xl lg:text-4xl tracking-normal">
             <TypingAnimation showCursor={true}>
               Online Learning Platform
             </TypingAnimation>
@@ -42,7 +48,7 @@ const Banner = () => {
       </div>
 
       {/* RIGHT SIDE */}
-      <Backlight  blur={60}  className="border mt-10 lg:mt-0 bg-white/10 backdrop-blur-sm rounded-2xl text-center border-gray-300 p-10">
+     {!user?(!isPending?  <Backlight  blur={60}  className="border mt-10 lg:mt-0 bg-white/10 backdrop-blur-sm rounded-2xl text-center border-gray-300 p-10">
         <h2 className="font-extrabold text-2xl md:text-3xl mb-4">
           Get 7 Days Free Trials
         </h2>
@@ -68,7 +74,9 @@ const Banner = () => {
   , and agree to receive marketing communications...
 </p>
         </div>
-      </Backlight>
+      </Backlight>:<></>):<div>
+         <DotLottieReact src='/Developer.lottie' loop autoplay className="md:w-[500px] lg:w-[600px]"></DotLottieReact>
+        </div>}
     </div>
   );
 };
