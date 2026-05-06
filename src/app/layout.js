@@ -7,7 +7,7 @@ import Footer from "@/component/Footer";
 import FooterSection from "@/component/Footer";
 import ScrollBasedVelocityReviewDemo from "@/component/scrollReview";
 import { ToastContainer } from "react-toastify";
-import Modal from "@/component/Modal";
+
 
 
 const roboto = Roboto({
@@ -47,15 +47,14 @@ export default function RootLayout({ children }) {
           
         </main>
 
-        <ScrollBasedVelocityReviewDemo />
+       
 
         <FooterSection />
         <ToastContainer 
           position="top-right"
           autoClose={3000}
         />
-        <Modal />
-
+       
       </body>
     </html>
   );

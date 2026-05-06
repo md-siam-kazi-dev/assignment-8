@@ -1,5 +1,6 @@
 
 import { CourseTimeline } from "@/component/CourseTimeline";
+import ScrollBasedVelocityReviewDemo from "@/component/scrollReview";
 import Seperator from "@/component/sep";
 import fetchData from "@/lib/fetchData";
 
@@ -14,6 +15,7 @@ const CourseDetailsPage =async ({params}) => {
 
 
   return (
+    <>
     <div className=" container-div mt-30 md:mt-40 p-8 rounded-2xl  mx-auto">
       <div className="heading flex  flex-col lg:flex-row gap-10">
         <img className="rounded-2xl w-full md:w-[50%]" src={course.image}></img>
@@ -51,6 +53,8 @@ const CourseDetailsPage =async ({params}) => {
 
       <CourseTimeline course={course}/>
     </div>
+     <ScrollBasedVelocityReviewDemo />
+    </>
   );
 }
 

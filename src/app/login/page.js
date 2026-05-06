@@ -47,7 +47,11 @@ export default function SkillsphereLogin() {
           </h2>
 
 
-          <button
+          <button onClick={ async() => {
+                     const data = await signIn.social({
+                     provider: "google",
+            });
+                    }} 
             type="button"
             className="w-full flex items-center justify-center gap-3 border border-[#30363d] hover:border-[#8b949e] text-sm font-medium py-2.5 px-4 rounded-md transition-all duration-150 mb-5 group"
           >
