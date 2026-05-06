@@ -1,36 +1,130 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div align="center">
 
-## Getting Started
+# 🌐 SkillSphere.tech
 
-First, run the development server:
+### *Expand Your Skills. Elevate Your Future.*
+
+A modern, full-featured **skill course platform** built with the latest web technologies — designed to deliver a seamless and engaging learning experience.
+
+</div>
+
+---
+
+## 🎯 About The Project
+
+**SkillSphere** is a next-generation online skill course platform designed to connect learners with high-quality, curated courses across a wide range of disciplines. Whether you're a beginner picking up your first skill or a professional leveling up your expertise, SkillSphere has something for you.
+
+The platform emphasizes a **clean, modern UI**, fast page loads via server-side rendering, and a smooth user experience powered by cutting-edge component libraries.
+
+> 🚀 Built with passion. Designed for learners. Powered by modern web tech.
+
+---
+
+## 🛠 Tech Stack
+
+| Technology | Purpose |
+|------------|---------|
+| **Next.js** | Full-stack React framework with SSR & SSG |
+| **React.js** | Component-based UI development |
+| **Tailwind CSS** | Utility-first CSS styling |
+| **HeroUI** | Beautiful, accessible UI component library |
+| **DaisyUI** | Tailwind CSS component plugin |
+| **Magic UI** | Animated & interactive UI components |
+
+---
+
+## ✨ Features
+
+- 🏠 **Landing Page** — Stunning hero section, course highlights, and call-to-action
+- 📖 **Course Catalog** — Browse and filter courses by category, level, and popularity
+- 🎓 **Course Detail Page** — Full curriculum, instructor info, reviews, and enrollment
+- 👤 **User Authentication** — Sign up, log in, and manage your profile
+- 📊 **Student Dashboard** — Track enrolled courses, progress, and certificates
+- 🔍 **Search & Filter** — Quickly find the course you need
+- 📱 **Fully Responsive** — Optimized for mobile, tablet, and desktop
+- 🌙 **Dark / Light Mode** — Theme toggle powered by DaisyUI
+- ⚡ **Blazing Fast** — Server-side rendering and static optimization via Next.js
+- 🎨 **Animations** — Smooth, eye-catching animations via Magic UI
+
+---
+
+## 📸 Screenshots
+
+> *(Add your actual screenshots here)*
+
+| Home Page | Course Catalog | Dashboard |
+|-----------|---------------|-----------|
+| ![Home](https://placehold.co/380x220/6366f1/fff?text=Home+Page) | ![Catalog](https://placehold.co/380x220/8b5cf6/fff?text=Course+Catalog) | ![Dashboard](https://placehold.co/380x220/a855f7/fff?text=Dashboard) |
+
+---
+
+## 🚀 Getting Started
+
+Follow these steps to get **SkillSphere.tech** running on your local machine.
+
+### Prerequisites
+
+Make sure you have the following installed:
+
+- [Node.js](https://nodejs.org/) `v18.0.0` or higher
+- [npm](https://www.npmjs.com/) `v9+` or [yarn](https://yarnpkg.com/) or [pnpm](https://pnpm.io/)
+- [Git](https://git-scm.com/)
+
+
+### Running Locally
 
 ```bash
+# Start the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# Build for production
+npm run build
+
+# Start production server
+npm run start
+
+# Run linter
+npm run lint
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🔐 Environment Variables
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Create a `.env.local` file in the root directory and add the following:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+# Other API keys as needed
+```
 
-## Learn More
+> ⚠️ **Never commit your `.env.local` file to version control.**
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🤝 Contributing
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Contributions are what make the open source community such an amazing place to learn and grow! Any contributions you make are **greatly appreciated**.
 
-## Deploy on Vercel
+1. Fork the project
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Please read our [Contributing Guidelines](CONTRIBUTING.md) before submitting a PR.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+
+## 📬 Contact
+
+
+
+---
+
+<div align="center">
+
+
+
+⭐ If you found this project helpful, please consider giving it a **star** on GitHub!
+
+[![Star History](https://img.shields.io/github/stars/yourusername/skillsphere.tech?style=social)](https://github.com/yourusername/skillsphere.tech)
+
+</div>
