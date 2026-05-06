@@ -65,6 +65,9 @@ const CourseContent = () => {
     };
 
     useEffect(() => {
+        if ("scrollRestoration" in history) {
+      history.scrollRestoration = "auto"; // ✅ keep same position
+    }
         setcategoryMain(categoryName);
     }, [categoryName]);
 
