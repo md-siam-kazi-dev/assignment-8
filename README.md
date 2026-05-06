@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🌐 SkillSphere.tech
+# 🌐 SkillSphere
 
 ### *Expand Your Skills. Elevate Your Future.*
 
@@ -42,33 +42,14 @@ The platform emphasizes a **clean, modern UI**, fast page loads via server-side 
 - 📊 **Student Dashboard** — Track enrolled courses, progress, and certificates
 - 🔍 **Search & Filter** — Quickly find the course you need
 - 📱 **Fully Responsive** — Optimized for mobile, tablet, and desktop
-- 🌙 **Dark / Light Mode** — Theme toggle powered by DaisyUI
-- ⚡ **Blazing Fast** — Server-side rendering and static optimization via Next.js
 - 🎨 **Animations** — Smooth, eye-catching animations via Magic UI
 
 ---
-
-## 📸 Screenshots
-
-> *(Add your actual screenshots here)*
-
-| Home Page | Course Catalog | Dashboard |
-|-----------|---------------|-----------|
-| ![Home](https://placehold.co/380x220/6366f1/fff?text=Home+Page) | ![Catalog](https://placehold.co/380x220/8b5cf6/fff?text=Course+Catalog) | ![Dashboard](https://placehold.co/380x220/a855f7/fff?text=Dashboard) |
-
 ---
 
 ## 🚀 Getting Started
 
-Follow these steps to get **SkillSphere.tech** running on your local machine.
-
-### Prerequisites
-
-Make sure you have the following installed:
-
-- [Node.js](https://nodejs.org/) `v18.0.0` or higher
-- [npm](https://www.npmjs.com/) `v9+` or [yarn](https://yarnpkg.com/) or [pnpm](https://pnpm.io/)
-- [Git](https://git-scm.com/)
+Follow these steps to get **SkillSphere** running on your local machine
 
 
 ### Running Locally
@@ -112,12 +93,6 @@ Please read our [Contributing Guidelines](CONTRIBUTING.md) before submitting a P
 
 ---
 
-
-## 📬 Contact
-
-
-
----
 
 <div align="center">
 
