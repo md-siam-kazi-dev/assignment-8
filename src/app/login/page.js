@@ -1,6 +1,6 @@
 'use client'
 
-import { signIn } from "@/lib/auth-client";
+import { signIn, useSession } from "@/lib/auth-client";
 import { useState } from "react";
 import { toast } from "react-toastify";
 
@@ -13,6 +13,11 @@ export default function SkillsphereLogin() {
   const [password, setPassword] = useState("");
   const [showPass, setShowPass] = useState(false);
   const [loading, setLoading] = useState(false);
+  const {data} = useSession();
+    const user = data?.user;
+    if(user){
+      redirect('/');
+    }
 
   const singInFunc =async (e) => {
     e.preventDefault();
