@@ -68,38 +68,5 @@ npm run start
 npm run lint
 ```
 
-## 🔐 Environment Variables
-
-Create a `.env.local` file in the root directory and add the following:
-
-# Other API keys as needed
-```
-
-> ⚠️ **Never commit your `.env.local` file to version control.**
-
----
-
-## 🤝 Contributing
-
-Contributions are what make the open source community such an amazing place to learn and grow! Any contributions you make are **greatly appreciated**.
-
-1. Fork the project
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-Please read our [Contributing Guidelines](CONTRIBUTING.md) before submitting a PR.
-
----
 
 
-<div align="center">
-
-
-
-⭐ If you found this project helpful, please consider giving it a **star** on GitHub!
-
-[![Star History](https://img.shields.io/github/stars/yourusername/skillsphere.tech?style=social)](https://github.com/yourusername/skillsphere.tech)
-
-</div>
