@@ -3,7 +3,9 @@
 import { use, useState } from "react";
 import { signupLogic } from "../../../signupLogic";
 import { signIn, useSession } from "@/lib/auth-client";
-import { redirect } from "next/dist/server/api-utils";
+import { useRouter } from "next/router";
+
+
 
 
 
@@ -20,8 +22,10 @@ export default function SkillsphereSignup() {
   const [img,setImg] = useState("")
   const {data} = useSession();
   const user = data?.user;
+  const router = useRouter()
   if(user){
-    redirect('/');
+   router.push('/');
+   return;
   }
 
   

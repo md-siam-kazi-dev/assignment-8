@@ -1,6 +1,7 @@
 'use client'
 
 import { signIn, useSession } from "@/lib/auth-client";
+import { useRouter } from "next/navigation";
 import { useState } from "react";
 import { toast } from "react-toastify";
 
@@ -15,8 +16,10 @@ export default function SkillsphereLogin() {
   const [loading, setLoading] = useState(false);
   const {data} = useSession();
     const user = data?.user;
+   const router = useRouter()
     if(user){
-      redirect('/');
+     router.push('/');
+     return;
     }
 
   const singInFunc =async (e) => {
