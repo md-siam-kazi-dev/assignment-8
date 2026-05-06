@@ -20,13 +20,13 @@ const CourseContainer = ({category,searchInput,setSearchInput}) => {
      
       const resData = await fetchData();
        
-      console.log('ss')
-      console.log(category,searchInput)
+      
+      
       
 
 
       if (category === 'all' && searchInput === "") {
-        console.log('xx')
+      
         setData(resData);
       }else if(searchInput != ""){
         console.log('yy')

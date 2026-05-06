@@ -2,6 +2,7 @@
 
 import Banner from "@/component/Banner";
 import { BannerAnimatedPhoto } from "@/component/BannerAnimatedPhoto";
+import TipsSection from "@/component/Learning";
 import MainCourse from "@/component/MainCourse";
 
 import ScrollBasedVelocityReviewDemo from "@/component/scrollReview";
@@ -37,7 +38,8 @@ export default function  Home() {
     <TopTeacher />
 
     <MainCourse />
-     <ScrollBasedVelocityReviewDemo />
+    <ScrollBasedVelocityReviewDemo />
+    <TipsSection />
     
     
 
